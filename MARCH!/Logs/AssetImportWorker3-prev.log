@@ -1,0 +1,473 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'cs' Physical Memory: 32609 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50231
+Successfully changed project path to: C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
+C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4504] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 3032228031 [EditorId] 3032228031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4504] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 3032228031 [EditorId] 3032228031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   NVIDIA
+    VRAM:     12093 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005986 seconds.
+- Loaded All Assemblies, in  0.227 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.162 seconds
+Domain Reload Profiling: 388ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 788ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3556.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 2.271500 ms (FindLiveObjects: 0.165600 ms CreateObjectMapping: 0.066400 ms MarkObjects: 1.966000 ms  DeleteObjects: 0.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2995.941514 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Characters/SM_Chr_Attach_British_Hat_03.prefab
+  artifactKey: Guid(75a78ee8c583b1148a9d2494fe7b9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Characters/SM_Chr_Attach_British_Hat_03.prefab using Guid(75a78ee8c583b1148a9d2494fe7b9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d016facde9dd34dd5e188dcaa356dce') in 0.110187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 43.040281 seconds.
+  path: Assets/PolygonWar/Models/Character_British_Leader_01.fbx
+  artifactKey: Guid(ec955c89551b4d34a94bacc3c2a710db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Character_British_Leader_01.fbx using Guid(ec955c89551b4d34a94bacc3c2a710db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4ddbc5528946da057a4e13222ac2d0') in 0.036860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_Bunker_Large_Cliff_01.fbx
+  artifactKey: Guid(ec8926179c89350479580ddd0e7bbd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_Bunker_Large_Cliff_01.fbx using Guid(ec8926179c89350479580ddd0e7bbd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54f295e5f91baa7ab37fbcfc02574d1') in 0.011122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Preset_03.fbx
+  artifactKey: Guid(558981a6221bbf340ba71dedce12fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Preset_03.fbx using Guid(558981a6221bbf340ba71dedce12fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd86a4e58e44bf0e693d723c06dd6a6') in 0.027951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Section_Roof_06.fbx
+  artifactKey: Guid(abe032c22ab3dd84ab848c23d6e53f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Section_Roof_06.fbx using Guid(abe032c22ab3dd84ab848c23d6e53f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1ab76a0c29a64f11c3ea4118234c14') in 0.053881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_Bunker_Large_Damaged_01.fbx
+  artifactKey: Guid(d4d46fb8119059d429f9b2ace63fa607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_Bunker_Large_Damaged_01.fbx using Guid(d4d46fb8119059d429f9b2ace63fa607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21216737422ccd439e7ce61e4eb3a942') in 0.029896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWar/Models/Character_Russian_Leader_01.fbx
+  artifactKey: Guid(a3fd1dab09cec8e4f899d96de982cb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Character_Russian_Leader_01.fbx using Guid(a3fd1dab09cec8e4f899d96de982cb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ef0a6fb829075d77bb5914074f972') in 0.017606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_Camonetting_Tent_01.fbx
+  artifactKey: Guid(d4035eebf2606a74d99ed1234e08f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_Camonetting_Tent_01.fbx using Guid(d4035eebf2606a74d99ed1234e08f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c977fcdcbb28ee20a18b511a22e13173') in 0.008468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_Bunker_Wall_01.fbx
+  artifactKey: Guid(9f50ea1a48fa71647bbf24ce6fcad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_Bunker_Wall_01.fbx using Guid(9f50ea1a48fa71647bbf24ce6fcad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337f5f1adaf95e2fc966afd7ec3f14f2') in 0.007446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Section_Base_07.fbx
+  artifactKey: Guid(2c522ab8578821d4db60effa2a9e1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Section_Base_07.fbx using Guid(2c522ab8578821d4db60effa2a9e1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15912025acd38deb0aabefe8aafa3f7d') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Section_Room_02.fbx
+  artifactKey: Guid(adf97e83bdf5a7e499aa06414f6f874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Section_Room_02.fbx using Guid(adf97e83bdf5a7e499aa06414f6f874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562eb45b066e22561a2f83c24527d07f') in 0.011792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWar/Models/Character_Pilot_01.fbx
+  artifactKey: Guid(e1fae963d84172e458931a2fbce0c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Character_Pilot_01.fbx using Guid(e1fae963d84172e458931a2fbce0c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b18b6e4f21c4ecc898999853320bab6') in 0.014219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Character_German_Soldier_02.fbx
+  artifactKey: Guid(e364274c78d29d5439733ef348547cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Character_German_Soldier_02.fbx using Guid(e364274c78d29d5439733ef348547cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8031a41f1be6a0f3be2a29645b6c4661') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_Camonetting_Tent_03.fbx
+  artifactKey: Guid(604987fc5b722f24a8b82a43cec5c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_Camonetting_Tent_03.fbx using Guid(604987fc5b722f24a8b82a43cec5c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9142ef045d4e887f64c4d0b06f381a') in 0.007327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Section_Base_04.fbx
+  artifactKey: Guid(cdb0e2de73360434788dffceebc9a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Section_Base_04.fbx using Guid(cdb0e2de73360434788dffceebc9a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2f7e2207f9d48971bcb082018a39d2') in 0.018825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Character_Gernman_Officer_02.fbx
+  artifactKey: Guid(a9ea625416d285349a021e7ce7dffab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Character_Gernman_Officer_02.fbx using Guid(a9ea625416d285349a021e7ce7dffab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07bf8714c2cbdee54e86e66038ee22d') in 0.013329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/SM_Bld_City_Destroyed_02.fbx
+  artifactKey: Guid(ec2918d2fa3dc5f40ba2b7cc47dc7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Bld_City_Destroyed_02.fbx using Guid(ec2918d2fa3dc5f40ba2b7cc47dc7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573ee4083ece51be6e8775e2e745b9c9') in 0.008162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.841243 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_Bunker_02_Collision.fbx
+  artifactKey: Guid(db9e62e233ec9984eaba4aed68d127b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_Bunker_02_Collision.fbx using Guid(db9e62e233ec9984eaba4aed68d127b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518efcfebb1d8b10b890c468e667409e') in 0.009197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_City_Destroyed_01_Collision.fbx
+  artifactKey: Guid(18031cd3e9464884d8da8ccdc0b8759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_City_Destroyed_01_Collision.fbx using Guid(18031cd3e9464884d8da8ccdc0b8759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3202fbeb27fb21878866ffcdca835098') in 0.007416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_06_Collision.fbx
+  artifactKey: Guid(192a3563e09dcc54683ca1e784c7a7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_06_Collision.fbx using Guid(192a3563e09dcc54683ca1e784c7a7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6866afa909af5ca451c5b08ce901f16c') in 0.008198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_FarmHouse_01_Collision.fbx
+  artifactKey: Guid(f1696a2a65c612148b032bd280c192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_FarmHouse_01_Collision.fbx using Guid(f1696a2a65c612148b032bd280c192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b119806d28879ca8cc9d577bdc2311') in 0.008671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_02_Collision.fbx
+  artifactKey: Guid(29b998c931223bd45a25a341abc7aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_02_Collision.fbx using Guid(29b998c931223bd45a25a341abc7aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ad5df019a8fa2444599a7f57a4830e') in 0.010027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_05_Collision.fbx
+  artifactKey: Guid(4a538f2f4d367f248a7405726763622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_05_Collision.fbx using Guid(4a538f2f4d367f248a7405726763622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd90c79169ad80fcb4f482fe0c68b90') in 0.010534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_01_Collision.fbx
+  artifactKey: Guid(fb0f534f111c78e46b9cedb8c97887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_City_Preset_01_Collision.fbx using Guid(fb0f534f111c78e46b9cedb8c97887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cec4ff3e115d6df03c7d9d7596094b') in 0.010364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_Rubble_01_Collision.fbx
+  artifactKey: Guid(b0310dc7fea7dcb4fa6931c6b1687854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_Rubble_01_Collision.fbx using Guid(b0310dc7fea7dcb4fa6931c6b1687854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf91d05227793d0284014e248658183b') in 0.008178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_04_Collision.fbx
+  artifactKey: Guid(24a3216526c10f545a5aa368463eb762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/Collision/SM_Bld_TownHouse_04_Collision.fbx using Guid(24a3216526c10f545a5aa368463eb762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c1e73f53508b2c6e017224df9bfe6d') in 0.011661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 19.906468 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_01.prefab
+  artifactKey: Guid(035c67154e773d441b27ccf192272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_01.prefab using Guid(035c67154e773d441b27ccf192272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b184bf68630523df0617e8859a144a0') in 0.021475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.103516 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Corner_01.prefab
+  artifactKey: Guid(c4ef890e5f881da47819302386ca82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Corner_01.prefab using Guid(c4ef890e5f881da47819302386ca82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9621cf8109215a2628f7d549c4ff619') in 0.010773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Pit_01.prefab
+  artifactKey: Guid(faab5677c9d39a6449e6fe0e797fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Pit_01.prefab using Guid(faab5677c9d39a6449e6fe0e797fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dada4aeeb40e53c6a55be648270a2d6a') in 0.009348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Firestep_02.prefab
+  artifactKey: Guid(6685504cd5530e64b92ed3ac2ccc4032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Firestep_02.prefab using Guid(6685504cd5530e64b92ed3ac2ccc4032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78727f77979c7748810ddcfcd59863') in 0.010514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Firestep_05.prefab
+  artifactKey: Guid(416ac83775792234691671a06364439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Firestep_05.prefab using Guid(416ac83775792234691671a06364439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07edc1c98c4a11fa88deccabfa6a230d') in 0.013012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Trench_Bridge_02.prefab
+  artifactKey: Guid(7c8e3955b6bb254429a0acf2dd1db665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Trench_Bridge_02.prefab using Guid(7c8e3955b6bb254429a0acf2dd1db665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a6b8a919a1434a5f01093b4557544') in 0.031327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Barricade_01.prefab
+  artifactKey: Guid(a06d4e8366d778a4fbfac63b8ecee305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Barricade_01.prefab using Guid(a06d4e8366d778a4fbfac63b8ecee305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0371243b24e06e9139a61873720febcf') in 0.038227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02.prefab
+  artifactKey: Guid(09c5f2290ea9ba748b51c512e7c1a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02.prefab using Guid(09c5f2290ea9ba748b51c512e7c1a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd31cb22a66fdacaf00f7f148ffdc74') in 0.018831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Straight_01.prefab
+  artifactKey: Guid(494267193073d2544943212545d8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Env_Trench_Deep_Straight_01.prefab using Guid(494267193073d2544943212545d8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71a7bb3e0a22e9188a7f526994773d') in 0.049000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Barricade_02.prefab
+  artifactKey: Guid(0e4e89f42ae40594cab485db73024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ww1Prefabs/Prefabs/Environment/SM_Prop_Barricade_02.prefab using Guid(0e4e89f42ae40594cab485db73024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb30d4c83192aed4e3e8387d73377d3') in 0.034655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Vstupne-výstupní operace byla prerušena bud z duvodu ukoncení vlákna, nebo na žádost aplikace.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
