@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
+C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50119
-Successfully changed project path to: C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
-C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
+50459
+Successfully changed project path to: C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
+C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10824] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 509687956 [EditorId] 509687956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18296] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 2405648883 [EditorId] 2405648883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10824] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 509687956 [EditorId] 509687956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18296] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 2405648883 [EditorId] 2405648883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH!/Assets
+[Subsystems] Discovering subsystems at path C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005085 seconds.
-- Loaded All Assemblies, in  0.207 seconds
+Registered in 0.006168 seconds.
+- Loaded All Assemblies, in  0.290 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.154 seconds
-Domain Reload Profiling: 360ms
-	BeginReloadAssembly (66ms)
+- Finished resetting the current domain, in  0.187 seconds
+Domain Reload Profiling: 476ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
-		LoadAssemblies (64ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (67ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (154ms)
+	FinalizeReload (187ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (120ms)
+		SetupLoadedEditorAssemblies (144ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,77 +115,56 @@ Domain Reload Profiling: 360ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.383 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.378 seconds
-Domain Reload Profiling: 758ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.415 seconds
+Domain Reload Profiling: 837ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (189ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (213ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
 			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (378ms)
+	FinalizeReload (415ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (292ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3582.
-Memory consumption went from 136.1 MB to 136.0 MB.
-Total: 1.952700 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.670600 ms  DeleteObjects: 0.071600 ms)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3582.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 2.058900 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.074500 ms MarkObjects: 1.709300 ms  DeleteObjects: 0.106900 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3582.
-Memory consumption went from 86.9 MB to 86.9 MB.
-Total: 1.807500 ms (FindLiveObjects: 0.159800 ms CreateObjectMapping: 0.071300 ms MarkObjects: 1.563000 ms  DeleteObjects: 0.012700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,89 +180,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5003.877089 seconds.
-  path: Assets/Scenes/SerbianFront 1.7.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 1.7.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb6e21e6fd1b14305b85af70ffe9efd') in 0.002888 seconds
+  Time since last request: 7303.216134 seconds.
+  path: Assets/Scenes/SerbianFront/SerbianFront 7.unity
+  artifactKey: Guid(aaab21f18a1bf5e40b5053b3f137a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SerbianFront/SerbianFront 7.unity using Guid(aaab21f18a1bf5e40b5053b3f137a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda240fef49c6213d54d914b1e318d5a') in 0.002154 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 25.429616 seconds.
-  path: Assets/Materials/black.mat
-  artifactKey: Guid(2437c02d6cb9a6540b72b6d19e624151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/black.mat using Guid(2437c02d6cb9a6540b72b6d19e624151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d7116514777056440834600aa4e2c') in 0.073116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 20.569939 seconds.
-  path: Assets/Scenes/SerbianFront 1.7 1.unity
-  artifactKey: Guid(1ae6d527e79524a48a647059105389ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 1.7 1.unity using Guid(1ae6d527e79524a48a647059105389ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9d835e0f75000b35762abff69ceac8') in 0.000406 seconds
+  Time since last request: 4.651178 seconds.
+  path: Assets/Scenes/SerbianFront/SerbianFront 6.unity
+  artifactKey: Guid(f6112d543e00dd4448fe944ca5b9438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SerbianFront/SerbianFront 6.unity using Guid(f6112d543e00dd4448fe944ca5b9438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad29bcba8cfe42fb7623fc2556c17fc') in 0.000408 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 10.737483 seconds.
-  path: Assets/Scenes/SerbianFront 2.7.unity
-  artifactKey: Guid(1ae6d527e79524a48a647059105389ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 2.7.unity using Guid(1ae6d527e79524a48a647059105389ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5fe030bd88649b577c9fc2fc8e062e') in 0.000432 seconds
+  Time since last request: 620.299143 seconds.
+  path: Assets/PolygonWar/Models/SM_Env_Dirt_Mound_Large_02.fbx
+  artifactKey: Guid(baa1eda9e5693214aa7a380734d5096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Env_Dirt_Mound_Large_02.fbx using Guid(baa1eda9e5693214aa7a380734d5096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b5908a7b024fff7b11b5fa264160ef') in 0.093625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWar/Models/SM_Env_Dirt_Mound_Small_02.fbx
+  artifactKey: Guid(4f6cb45785ec80f4f93a2c3a90c3dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Models/SM_Env_Dirt_Mound_Small_02.fbx using Guid(4f6cb45785ec80f4f93a2c3a90c3dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ba2541b13923cdf811f9a024cac09b') in 0.024912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 182.488665 seconds.
+  path: Assets/Scenes/SerbianFront/SerbianFront 7.unity
+  artifactKey: Guid(aaab21f18a1bf5e40b5053b3f137a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SerbianFront/SerbianFront 7.unity using Guid(aaab21f18a1bf5e40b5053b3f137a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8616608c7f262a204ef920fe7d6a92') in 0.000684 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.989185 seconds.
-  path: Assets/Scenes/SerbianFront 1.7 1.unity
-  artifactKey: Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 1.7 1.unity using Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50573ae379f43878f8226858778c8594') in 0.000410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 42.115332 seconds.
-  path: Assets/Scenes/SerbianFront 2 1.unity
-  artifactKey: Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 2 1.unity using Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f61928a6c21e61bab45a24b1acb2101') in 0.000449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.390424 seconds.
-  path: Assets/Scenes/SerbianFront 1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731386934e7d6ff4ed8362f1db1b436') in 0.000479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.466272 seconds.
-  path: Assets/Scenes/SerbianFront 3.unity
-  artifactKey: Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 3.unity using Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4852b1a354270849760f69bb96f7ce') in 0.000447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.179459 seconds.
-  path: Assets/Scenes/SerbianFront 2.unity
-  artifactKey: Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 2.unity using Guid(9a0197db3ecfc5b4a87d15ae8a2572a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4376a2c7b0c47c772ec8409ab58589ac') in 0.000463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.947757 seconds.
-  path: Assets/Scenes/SerbianFront 3.unity
-  artifactKey: Guid(6e4f973ccdd0a444d913d43c7ab127eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SerbianFront 3.unity using Guid(6e4f973ccdd0a444d913d43c7ab127eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47839b436d30b24871ca026c5cc0dacd') in 0.000427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1703.980972 seconds.
-  path: Assets/PolygonWar/Scenes
-  artifactKey: Guid(bbe2e1517f929db46bd4970dbf165678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWar/Scenes using Guid(bbe2e1517f929db46bd4970dbf165678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fab97813b7c2c377e2e533de816351e') in 0.001083 seconds
+  Time since last request: 12.760363 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(4183ca7d0e31e6446ba590e6a89b3b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(4183ca7d0e31e6446ba590e6a89b3b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d5559c4c0f21df6e2a970f63e6d83b') in 0.000412 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
