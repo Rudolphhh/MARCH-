@@ -355,6 +355,7 @@
 "Assets/scripts/Health.cs"
 "Assets/scripts/Hider.cs"
 "Assets/scripts/NormalSoldier.cs"
+"Assets/scripts/Shooter.cs"
 "Assets/scripts/SoldierMovement.cs"
 -langversion:9.0
 
