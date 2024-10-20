@@ -43,6 +43,8 @@ public class Hider : MonoBehaviour
         newPosition.x += 5;
         newPosition.y += 0.6f;
         soldier.transform.position = newPosition;
+
+        Debug.Log("dsa");
     }
 
 
