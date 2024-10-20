@@ -40,7 +40,7 @@ public class Hider : MonoBehaviour
         soldier.isGoingForward = false;
 
         Vector3 newPosition = soldier.transform.position;
-        newPosition.x += 5;
+        newPosition.x += 6;
         newPosition.y += 0.6f;
         soldier.transform.position = newPosition;
 
