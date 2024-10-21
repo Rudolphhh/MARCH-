@@ -44,27 +44,8 @@ public class Hider : MonoBehaviour
         newPosition.y += 0.6f;
         soldier.transform.position = newPosition;
 
-        Debug.Log("dsa");
+        
     }
 
 
-    public void MarchForwardFromTheTrench()
-    {
-        Vector3 newPosition = soldier.transform.position;
-        newPosition.x += 5;
-        newPosition.y -= 0.6f;
-        soldier.transform.position = newPosition;
-        soldier.isInTrench = false;
-        soldier.speed = 3;
-        soldier.isGoingForward = true;
-    }
-
-    public void GoingBackToTheTrench()
-    {
-        soldier.isInTrench = false;
-        soldier.speed = 3;
-        soldier.isGoingForward = false;
-        soldier.isGoingBackward = true;
-
-    }
 }
