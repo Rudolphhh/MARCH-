@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +6,19 @@ public class Backer : MonoBehaviour
 {
     private List<GameObject> soldiersInTheRangeOfGoingBackToTrench = new List<GameObject>();
 
+    
+    private TrenchLocker trenchlocker;
+
     void Start()
     {
+        
+        trenchlocker = FindObjectOfType<TrenchLocker>();
 
+        
+        if (trenchlocker == null)
+        {
+            Debug.LogError("TrenchLocker nebyl nalezen ve scéně!");
+        }
     }
 
     void Update()
@@ -30,26 +40,30 @@ public class Backer : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Soldier"))
+        if (soldiersInTheRangeOfGoingBackToTrench.Contains(other.gameObject))
         {
-            if (soldiersInTheRangeOfGoingBackToTrench.Contains(other.gameObject))
-            {
-                soldiersInTheRangeOfGoingBackToTrench.Remove(other.gameObject);
-                Debug.Log("Soldier is out of the range of going back.");
-            }
+            soldiersInTheRangeOfGoingBackToTrench.Remove(other.gameObject);
+            Debug.Log("Soldier is out of the range of going back.");
         }
     }
 
-    // Method that gets called when the button is pressed
+    
     public void GoingBackToTheTrench()
     {
+        
         foreach (GameObject soldierObj in soldiersInTheRangeOfGoingBackToTrench)
         {
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
 
-            if (soldier != null)
+            
+            if (!trenchlocker.isLocked)
             {
                 soldier.GoingBack();
+            }
+            else
+            {
+                Debug.Log("Trench is locked, soldier cannot go back.");
+                return;
             }
         }
     }

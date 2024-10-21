@@ -6,6 +6,7 @@ public class HiderBack : MonoBehaviour
 {
     [SerializeField]
     private NormalSoldier soldier;
+    private TrenchLocker trenchlocker;
 
     // Start is called before the first frame update
     void Start()
@@ -32,25 +33,31 @@ public class HiderBack : MonoBehaviour
         }
     }
 
+
+
+
     public void HideInTheTrenchFromGoingBack()
     {
         
-        soldier.isInTrench = true;
-        soldier.speed = 0;
-        soldier.isGoingForward = false;
-
         
-        Vector3 newPosition = soldier.transform.position;
-        newPosition.x -= 6;
-        newPosition.y += 0.6f;
-        soldier.transform.position = newPosition;
+            soldier.isInTrench = true;
+            soldier.speed = 0;
+            soldier.isGoingForward = false;
 
+
+            Vector3 newPosition = soldier.transform.position;
+            newPosition.x -= 5;
+            newPosition.y += 0.6f;
+            soldier.transform.position = newPosition;
+
+
+            soldier.transform.Rotate(0, 180, 0);
+
+
+            soldier.direction = new Vector3(1, soldier.direction.y, soldier.direction.z);
+
+            Debug.Log("Soldier has returned to the trench, is facing forward, and has the correct direction.");
         
-        soldier.transform.Rotate(0, 180, 0);
-
         
-        soldier.direction = new Vector3(1, soldier.direction.y, soldier.direction.z);
-
-        Debug.Log("Soldier has returned to the trench, is facing forward, and has the correct direction.");
     }
 }

@@ -1,15 +1,22 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Outer : MonoBehaviour
 {
     private List<GameObject> soldiersInTrench = new List<GameObject>();
-    
+
+    [SerializeField]
+    private TrenchLocker trenchlocker;
 
     void Start()
     {
         
+        if (trenchlocker == null)
+        {
+            trenchlocker = FindObjectOfType<TrenchLocker>();
+        }
+        InvokeRepeating("HandleMarch", 1f, 1f);
     }
 
     // Update is called once per frame
@@ -29,6 +36,7 @@ public class Outer : MonoBehaviour
             }
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Soldier"))
@@ -40,7 +48,6 @@ public class Outer : MonoBehaviour
             }
         }
     }
-
 
     public void MarchForwardFromTheTrench()
     {
@@ -57,12 +64,22 @@ public class Outer : MonoBehaviour
                 soldier.isInTrench = false;
                 soldier.speed = 3;
                 soldier.isGoingForward = true;
-                
             }
         }
     }
 
-
-
-
+    public void HandleMarch()
+    {
+        
+        if (trenchlocker != null && trenchlocker.isLocked)
+        {
+            
+            MarchForwardFromTheTrench();
+        }
+        else
+        {
+            
+            Debug.Log("Trench is unlocked. Waiting for button click.");
+        }
+    }
 }

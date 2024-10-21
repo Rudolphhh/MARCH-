@@ -61,6 +61,7 @@ public class SoldierMovement : MonoBehaviour
         if (health.isAlive)
         {
             
+            
             if (!isGoingBackward)
             {
                 
