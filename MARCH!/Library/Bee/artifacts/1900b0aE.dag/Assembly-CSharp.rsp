@@ -361,6 +361,7 @@
 "Assets/scripts/Shooter.cs"
 "Assets/scripts/SoldierMovement.cs"
 "Assets/scripts/TrenchLocker.cs"
+"Assets/scripts/TrenchSpawner.cs"
 "Assets/scripts/TrenchUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
