@@ -6,6 +6,9 @@ public class Health : MonoBehaviour
 {
     private NormalSoldier soldier;
     private Vector3 direction;
+    private Animator mAnimator;
+    public GameObject gun;
+    public MonoBehaviour ShooterScript;
 
     [SerializeField]
     private int HP;
@@ -16,7 +19,7 @@ public class Health : MonoBehaviour
     void Start()
     {
         isAlive = true;
-
+        mAnimator = GetComponent<Animator>();
 
     }
 
@@ -27,6 +30,7 @@ public class Health : MonoBehaviour
         {
             Killed();
         }
+        
 
 
 
@@ -37,12 +41,18 @@ public class Health : MonoBehaviour
         isDead = true;
         isAlive = false;
 
-        //animace umreni
-        if (isDead = true)
+
+        if (ShooterScript != null)
         {
-            direction = new Vector3(direction.x, direction.y, direction.z);
-            transform.Rotate(68.208f, -13.654f, -85.502f);
+            ShooterScript.enabled = false;
         }
+
         
+        if (gun != null)
+        {
+            Destroy(gun);
+        }
+        Destroy(gameObject, 6f);
+
     }
 }

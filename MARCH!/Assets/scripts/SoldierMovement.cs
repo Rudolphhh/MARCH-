@@ -8,6 +8,7 @@ public class SoldierMovement : MonoBehaviour
 {
     private Health health;
     private Rigidbody rb;
+    private Animator mAnimator;
 
     public bool isInTrench = false;
     public bool isGoingForward = true;
@@ -25,11 +26,42 @@ public class SoldierMovement : MonoBehaviour
     {
         health = GetComponent<Health>();
         rb = GetComponent<Rigidbody>();
+        mAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     public void Update()
     {
+        if (health.isDead == false)
+        {
+            if (mAnimator != null)
+            {
+                if (isGoingForward == false)
+                {
+                    mAnimator.SetBool("isWalkingAnim", false);
+                }
+                else if (isGoingForward == true)
+                {
+                    mAnimator.SetBool("isWalkingAnim", true);
+                }
+            }
+        }
+        else if(health.isDead == true && isGoingForward == true)
+        {
+
+            isGoingForward = false;
+            mAnimator.SetBool("isDeadWhileWalking", true);
+            
+            mAnimator.SetBool("isWalkingAnim", false);
+
+        }
+        else if(health.isDead== true&& isGoingForward == false) 
+        {
+            mAnimator.SetBool("isDeadWhileIdle", true);
+        }
+        
+
+
         if (health.isAlive)
         {
             if (isInTrench)
