@@ -10,6 +10,8 @@ public class Shooter : MonoBehaviour
     [SerializeField]
     private Transform firePoint;
     public SoldierMovement soldierMovemnt;
+    public AudioSource audioSource;
+    public AudioClip shootingSound;
 
     [SerializeField]
     private GameObject shootEffectPrefab; // Reference to the particle effect prefab
@@ -31,7 +33,8 @@ public class Shooter : MonoBehaviour
 
     void Shoot()
     {
-        if(soldierMovemnt.isGoingForward == true)
+        audioSource.Play();
+        if (soldierMovemnt.isGoingForward == true)
         {
             soldierMovemnt.isGoingForward = false;
             soldierMovemnt.speed = 0;

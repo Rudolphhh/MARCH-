@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Outer : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Outer : MonoBehaviour
 
     [SerializeField]
     private TrenchLocker trenchlocker;
+    
 
     void Start()
     {
@@ -49,8 +51,11 @@ public class Outer : MonoBehaviour
         }
     }
 
+    
+
     public void MarchForwardFromTheTrench()
     {
+        
         foreach (GameObject soldierObj in soldiersInTrench)
         {
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
@@ -68,6 +73,7 @@ public class Outer : MonoBehaviour
         }
     }
 
+
     public void HandleMarch()
     {
         
@@ -78,8 +84,8 @@ public class Outer : MonoBehaviour
         }
         else
         {
-            
-            Debug.Log("Trench is unlocked. Waiting for button click.");
+            Debug.Log("waiting for button click go");
         }
+        
     }
 }

@@ -1,16 +1,20 @@
-﻿using System.Collections;
+﻿using Palmmedia.ReportGenerator.Core.Parser.Analysis;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TrenchSpawner : MonoBehaviour
 {
-    public GameObject trenchPrefab; // Prefab zákopu
-    public Collider spawnZone; // Kolizní zóna pro spawnování
-    private bool isSpawning = false; // Označení, zda je ve stavu spawnování
+    public GameObject trenchPrefab;
+    public GameObject trenchButtonPrefab;
+    public Collider spawnZone;
+    private bool isSpawning = false;
+
+    public GameObject trenchControls;
 
     void Update()
     {
-        // Pokud je povoleno spawnování a klikne se levým tlačítkem myši
+        
         if (isSpawning && Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -19,19 +23,28 @@ public class TrenchSpawner : MonoBehaviour
             // Ověříme, zda bylo kliknuto uvnitř zóny
             if (spawnZone.Raycast(ray, out hit, Mathf.Infinity))
             {
-                // Získání pozice kliknutí a úprava souřadnic Y a Z
+                
                 Vector3 spawnPosition = hit.point;
-                spawnPosition.y = -0.1600004f; // Nastavení Y na -3
-                spawnPosition.z = -2.111162f; // Uzamčení Z na -1.17
+                spawnPosition.y = -0.1600004f;
+                spawnPosition.z = -2.111162f;
 
-                // Spawn prefabriku zákopu na upravené pozici
-                Instantiate(trenchPrefab, spawnPosition, Quaternion.identity);
-                isSpawning = false; // Vypneme stav spawnování po jednom umístění
+                
+                var trench = Instantiate(trenchPrefab, spawnPosition, Quaternion.identity);
+                var button = Instantiate(trenchButtonPrefab, trenchControls.transform);
+
+                
+                TrenchControlsMenu tb = button.GetComponent<TrenchControlsMenu>();
+                TrenchUIPoint t = trench.GetComponent<TrenchUIPoint>();
+
+                // Set trench to the button
+                tb.SetTrench(t);
+
+                isSpawning = false;
             }
         }
     }
 
-    // Funkce pro aktivaci spawnování
+    
     public void StartSpawning()
     {
         isSpawning = true;
