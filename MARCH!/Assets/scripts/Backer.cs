@@ -28,13 +28,14 @@ public class Backer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Soldier is in the range of going back.");
+        
         if (other.CompareTag("Soldier"))
         {
             if (!soldiersInTheRangeOfGoingBackToTrench.Contains(other.gameObject))
             {
                 soldiersInTheRangeOfGoingBackToTrench.Add(other.gameObject);
-                
+                Debug.Log("Soldier is in the range of going back.");
+
             }
         }
     }

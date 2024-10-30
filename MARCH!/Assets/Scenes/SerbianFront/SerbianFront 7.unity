@@ -11898,6 +11898,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1983762893469417489, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6677258428672652547, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
       propertyPath: m_Name
       value: Character_German_WW1_01 (4)
@@ -50008,6 +50012,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1983762893469417489, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2019723141198151120, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
       propertyPath: m_Controller
       value: 
@@ -77593,6 +77601,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1983762893469417489, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6677258428672652547, guid: 17172e66c93bcfc4d8b01ad3323f5bf2, type: 3}
       propertyPath: m_Name
       value: Character_German_WW1_01 (5)

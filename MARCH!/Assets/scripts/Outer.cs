@@ -18,7 +18,8 @@ public class Outer : MonoBehaviour
         {
             trenchlocker = FindObjectOfType<TrenchLocker>();
         }
-        InvokeRepeating("HandleMarch", 1f, 1f);
+        InvokeRepeating("HandleMarch",2f, 2f);
+        
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class Outer : MonoBehaviour
     {
         if (other.CompareTag("Soldier"))
         {
+            
             if (!soldiersInTrench.Contains(other.gameObject))
             {
                 soldiersInTrench.Add(other.gameObject);
@@ -55,7 +57,7 @@ public class Outer : MonoBehaviour
 
     public void MarchForwardFromTheTrench()
     {
-        
+        Debug.Log("dsa");
         foreach (GameObject soldierObj in soldiersInTrench)
         {
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
@@ -76,16 +78,15 @@ public class Outer : MonoBehaviour
 
     public void HandleMarch()
     {
-        
         if (trenchlocker != null && trenchlocker.isLocked)
         {
-            
+            Debug.Log("HandleMarch called with soldiers count: " + soldiersInTrench.Count);
             MarchForwardFromTheTrench();
         }
         else
         {
             Debug.Log("waiting for button click go");
         }
-        
     }
+
 }

@@ -89,7 +89,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 0}
+  m_AnchoredPosition: {x: 34.4, y: 0}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &315476492800392445
@@ -235,7 +235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: 0}
+  m_AnchoredPosition: {x: -34.4, y: 0}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7439422429454295058
@@ -320,9 +320,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7056858327172591775}
-        m_TargetAssemblyTypeName: TrenchControlsMenu, Assembly-CSharp
-        m_MethodName: GoOut
+      - m_Target: {fileID: 3406998086856867759}
+        m_TargetAssemblyTypeName: Outer, Assembly-CSharp
+        m_MethodName: MarchForwardFromTheTrench
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025387b704ce5e44ca5f7a14b562aba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trenchlocker: {fileID: 0}
+  trenchlocker: {fileID: 6231033810926406829}
 --- !u!1 &4676558259979290478
 GameObject:
   m_ObjectHideFlags: 0
