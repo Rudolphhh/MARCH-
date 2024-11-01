@@ -8,7 +8,7 @@ public class TrenchControlsMenu : MonoBehaviour
     TrenchUIPoint trench;
     RectTransform rectTransform;
     Camera cam;
-    [SerializeField] private Outer outer;
+    
 
 
     void Awake()
@@ -33,9 +33,14 @@ public class TrenchControlsMenu : MonoBehaviour
 
     public void GoOut()
     {
-        
-        outer.MarchForwardFromTheTrench();
 
+        trench.ReleastAllSoldiers();
+
+    }
+
+    public void ComeBack()
+    {
+        trench.ComeBackAllReleastedSoldiers();
     }
 
 

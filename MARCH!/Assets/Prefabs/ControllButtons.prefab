@@ -51,7 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee41d9505b787054a94ee4e0d1693f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outer: {fileID: 3406998086856867759}
 --- !u!1 &2071629956729476797
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +63,6 @@ GameObject:
   - component: {fileID: 315476492800392445}
   - component: {fileID: 2646602019665493477}
   - component: {fileID: 4142599122290170290}
-  - component: {fileID: 8185934090340111943}
   m_Layer: 5
   m_Name: Backer
   m_TagString: Untagged
@@ -174,9 +172,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8185934090340111943}
-        m_TargetAssemblyTypeName: Backer, Assembly-CSharp
-        m_MethodName: GoingBackToTheTrench
+      - m_Target: {fileID: 7056858327172591775}
+        m_TargetAssemblyTypeName: TrenchControlsMenu, Assembly-CSharp
+        m_MethodName: ComeBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -186,18 +184,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8185934090340111943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071629956729476797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9b9c7f9eaf86d24c8b8fa7a9d7624ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2978074033509866784
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +196,6 @@ GameObject:
   - component: {fileID: 7439422429454295058}
   - component: {fileID: 7044901542939889122}
   - component: {fileID: 3367247593681881837}
-  - component: {fileID: 3406998086856867759}
   m_Layer: 5
   m_Name: Outer
   m_TagString: Untagged
@@ -320,9 +305,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3406998086856867759}
-        m_TargetAssemblyTypeName: Outer, Assembly-CSharp
-        m_MethodName: MarchForwardFromTheTrench
+      - m_Target: {fileID: 7056858327172591775}
+        m_TargetAssemblyTypeName: TrenchControlsMenu, Assembly-CSharp
+        m_MethodName: GoOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -332,19 +317,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3406998086856867759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2978074033509866784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025387b704ce5e44ca5f7a14b562aba9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trenchlocker: {fileID: 6231033810926406829}
 --- !u!1 &4676558259979290478
 GameObject:
   m_ObjectHideFlags: 0
