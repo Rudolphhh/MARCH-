@@ -1634,7 +1634,7 @@ Animator:
   m_GameObject: {fileID: 6677258428672652547}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c8879c3f0a0a9d941928685c6e5ad271, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0b4c54d7e420594c88add53e43cb410, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   isInTrench: 0
   isGoingForward: 1
   isGoingBackward: 0
-  speed: 3
+  speed: 2
   direction: {x: 1, y: 0, z: 0}
 --- !u!114 &5424413514247517620
 MonoBehaviour:

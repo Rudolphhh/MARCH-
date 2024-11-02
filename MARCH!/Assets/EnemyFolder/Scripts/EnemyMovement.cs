@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        speed = 3;
+        speed = 2;
         health = GetComponent<Health>();
         rb = GetComponent<Rigidbody>();
         mAnimator = GetComponent<Animator>();

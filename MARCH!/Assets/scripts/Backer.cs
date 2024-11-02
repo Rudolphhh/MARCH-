@@ -15,10 +15,7 @@ public class Backer : MonoBehaviour
         trenchlocker = FindObjectOfType<TrenchLocker>();
 
         
-        if (trenchlocker == null)
-        {
-            Debug.LogError("TrenchLocker nebyl nalezen ve scéně!");
-        }
+        
     }
 
     void Update()

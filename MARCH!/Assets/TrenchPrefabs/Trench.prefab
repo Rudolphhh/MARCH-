@@ -462,6 +462,7 @@ GameObject:
   - component: {fileID: 7547668825750843953}
   - component: {fileID: 5110514308556425487}
   - component: {fileID: 8161820888118664525}
+  - component: {fileID: 4152199039736095316}
   m_Layer: 0
   m_Name: Outer
   m_TagString: Untagged
@@ -518,6 +519,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trenchlocker: {fileID: 0}
+--- !u!114 &4152199039736095316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4062187364860283405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ae6ad23dcd95944989bc77851c15e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4113581818086952675
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,6 +966,7 @@ GameObject:
   - component: {fileID: 2707776269279187800}
   - component: {fileID: 730989678906568506}
   - component: {fileID: 6335180431740863718}
+  - component: {fileID: 6247731105982721361}
   m_Layer: 0
   m_Name: HiderBack
   m_TagString: Untagged
@@ -1009,6 +1023,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soldier: {fileID: 0}
+--- !u!114 &6247731105982721361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6682908070143659454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf0317eb582e2b458ca4206be5e99aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemysoldier: {fileID: 0}
 --- !u!1 &6977235919935833521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,6 +1339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiPoint: {fileID: 6977235919935833521}
+  outer: {fileID: 0}
+  backer: {fileID: 0}
 --- !u!1 &8905764830792426192
 GameObject:
   m_ObjectHideFlags: 0
