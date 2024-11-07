@@ -36,7 +36,7 @@ public class SoldierMovement : MonoBehaviour
         {
             if (mAnimator != null)
             {
-                if (isGoingForward == false)
+                if (isGoingForward == false && isGoingBackward == false)
                 {
                     mAnimator.SetBool("isWalkingAnim", false);
                 }
@@ -44,6 +44,11 @@ public class SoldierMovement : MonoBehaviour
                 {
                     mAnimator.SetBool("isWalkingAnim", true);
                 }
+                else if (isInTrench == true)
+                {
+                    mAnimator.SetBool("isWalkingAnim", false);
+                }
+                
             }
         }
         else if(health.isDead == true && isGoingForward == true)
