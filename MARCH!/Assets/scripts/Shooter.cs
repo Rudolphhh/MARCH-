@@ -17,6 +17,7 @@ public class Shooter : MonoBehaviour
     private GameObject shootEffectPrefab; // Reference to the particle effect prefab
 
     private float bulletLifeTime = 6f;
+    [SerializeField]
     private float reloadTime = 2f;
 
     // Start is called before the first frame update

@@ -8,6 +8,8 @@ public class Hider : MonoBehaviour
     [SerializeField]
     private NormalSoldier soldier;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,7 @@ public class Hider : MonoBehaviour
                 HideInTheTrench();
             }
         }
+        
     }
 
     public void HideInTheTrench()

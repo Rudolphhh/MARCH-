@@ -108,7 +108,7 @@ public class SoldierMovement : MonoBehaviour
                 
                 isGoingForward = false;
                 isGoingBackward = true;
-                speed = 3;
+                
 
                 Debug.Log("Soldier is going back to the trench.");
             }

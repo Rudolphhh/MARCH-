@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Security;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,8 @@ public class Outer : MonoBehaviour
 
     [SerializeField]
     private TrenchLocker trenchlocker;
-    
 
+    
     void Start()
     {
         
@@ -57,7 +58,7 @@ public class Outer : MonoBehaviour
 
     public void MarchForwardFromTheTrench()
     {
-        Debug.Log("dsa");
+        
         foreach (GameObject soldierObj in soldiersInTrench)
         {
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
@@ -69,8 +70,25 @@ public class Outer : MonoBehaviour
                 newPosition.y -= 0.6f;
                 soldier.transform.position = newPosition;
                 soldier.isInTrench = false;
-                soldier.speed = 3;
                 soldier.isGoingForward = true;
+
+
+
+                if (soldier.name.Contains("Rifler"))
+                {
+                    soldier.speed = 2;
+                }
+                else if (soldier.name.Contains("Gunner"))
+                {
+                    soldier.speed = 1;
+                }
+                else if (soldier.name.Contains("Sniper"))
+                {
+                    soldier.speed = 3;
+                }
+
+
+
             }
         }
     }

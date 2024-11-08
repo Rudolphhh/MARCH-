@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerSpawner : MonoBehaviour
 {
-    public GameObject playerPrefab;                       
+    public GameObject Rifler;
+    public GameObject Gunner;
+    public GameObject Sniper;
+
     public List<Transform> spawnPoints;                   
     private List<Transform> remainingPoints;              
 
@@ -15,7 +18,7 @@ public class PlayerSpawner : MonoBehaviour
         ResetAndShuffleSpawnPoints();
     }
 
-    public void SpawnPlayer()
+    public void SpawnRifler()
     {
         if (remainingPoints.Count == 0)
         {
@@ -32,8 +35,51 @@ public class PlayerSpawner : MonoBehaviour
         Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
 
 
-        Instantiate(playerPrefab, spawnPoint.position, spawnRotation);
+        Instantiate(Rifler, spawnPoint.position, spawnRotation);
     }
+
+    public void SpawnGunner()
+    {
+        if (remainingPoints.Count == 0)
+        {
+
+            ResetAndShuffleSpawnPoints();
+        }
+
+
+        Transform spawnPoint = remainingPoints[0];
+        remainingPoints.RemoveAt(0);
+
+
+        Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
+        Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
+
+
+        Instantiate(Gunner, spawnPoint.position, spawnRotation);
+    }
+    public void SpawnSniper()
+    {
+        if (remainingPoints.Count == 0)
+        {
+
+            ResetAndShuffleSpawnPoints();
+        }
+
+
+        Transform spawnPoint = remainingPoints[0];
+        remainingPoints.RemoveAt(0);
+
+
+        Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
+        Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
+
+
+        Instantiate(Sniper, spawnPoint.position, spawnRotation);
+    }
+
+
+
+
 
     private void ResetAndShuffleSpawnPoints()
     {
