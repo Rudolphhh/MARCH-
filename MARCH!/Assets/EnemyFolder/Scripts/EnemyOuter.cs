@@ -61,8 +61,22 @@ public class EnemyOuter : MonoBehaviour
                 newPosition.y -= 0.6f;
                 soldier.transform.position = newPosition;
                 soldier.isInTrench = false;
-                soldier.speed = 2;
                 soldier.isGoingForward = true;
+
+                if (soldier.name.Contains("EnemyRifler"))
+                {
+                    soldier.speed = 2;
+                }
+                else if (soldier.name.Contains("EnemyGunner"))
+                {
+                    soldier.speed = 1;
+                }
+                else if (soldier.name.Contains("EnemySniper"))
+                {
+                    soldier.speed = 3;
+                }
+                
+                
             }
         }
     }

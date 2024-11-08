@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        speed = 2;
+        
         health = GetComponent<Health>();
         rb = GetComponent<Rigidbody>();
         mAnimator = GetComponent<Animator>();
@@ -84,7 +84,7 @@ public class EnemyMovement : MonoBehaviour
 
                 isGoingForward = false;
                 isGoingBackward = true;
-                speed = 3;
+                
 
                 Debug.Log("Soldier is going back to the trench.");
             }

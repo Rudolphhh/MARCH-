@@ -39,7 +39,7 @@ public class EnemyHider : MonoBehaviour
         Enemysoldier.isGoingForward = false;
 
         Vector3 newPosition = Enemysoldier.transform.position;
-        newPosition.x -= 6;
+        newPosition.x -= 5.7f;
         newPosition.y += 0.6f;
         Enemysoldier.transform.position = newPosition;
 
