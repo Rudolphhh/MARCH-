@@ -404,6 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trenchPrefab: {fileID: 8287842813018174037, guid: 65b6e022f299c3d4389e45e80f6ae317, type: 3}
   trenchButtonPrefab: {fileID: 954476449750041334, guid: dd564693dc35b464a88e1803ff918e7b, type: 3}
+  trenchPreviewPrefab: {fileID: 8287842813018174037, guid: 8d450608ba772a44aa7030c45ca231b0, type: 3}
   spawnZone: {fileID: 103507740}
   trenchControls: {fileID: 1143340219}
 --- !u!65 &103507740

@@ -371,6 +371,7 @@
 "Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs"
 "Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs"
 "Assets/scripts/Backer.cs"
+"Assets/scripts/CameraMovemt.cs"
 "Assets/scripts/Health.cs"
 "Assets/scripts/Hider.cs"
 "Assets/scripts/HiderBack.cs"
