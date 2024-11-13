@@ -10,12 +10,18 @@ public class TrenchSpawner : MonoBehaviour
     public GameObject trenchPreviewPrefab;
     public Collider spawnZone;
     public GameObject trenchControls;
-
+    MoneyManager moneyManager;
     private bool isSpawning = false;
-    private GameObject previewTrench;
-    private int trenchCount = 0;      // Počet vytvořených zákopů
-    private int maxTrenches = 3;      // Maximální počet zákopů
-    private List<GameObject> trenches = new List<GameObject>(); // Seznam vytvořených zákopů
+    private GameObject previewTrench; //trench kde vidim kde se spawne trench az kliknu
+    private int trenchCount = 0;
+    private int maxTrenches = 3; // max pocet trenchu ve scene
+    private List<GameObject> trenches = new List<GameObject>();
+
+    private void Start()
+    {
+        moneyManager = FindObjectOfType<MoneyManager>();
+    }
+
 
     void Update()
     {
@@ -24,7 +30,7 @@ public class TrenchSpawner : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            bool canPlace = spawnZone.Raycast(ray, out hit, Mathf.Infinity); // Zda je myš uvnitř zóny
+            bool canPlace = spawnZone.Raycast(ray, out hit, Mathf.Infinity);
 
             if (canPlace)
             {
@@ -32,7 +38,7 @@ public class TrenchSpawner : MonoBehaviour
                 spawnPosition.y = -0.1600004f;
                 spawnPosition.z = -2.111162f;
 
-                // Kontrola vzdálenosti od ostatních zákopů na ose X
+                // Kontrola vzdálenosti od ostatních zákopů
                 bool isFarEnough = true;
                 foreach (var trench in trenches)
                 {
@@ -47,9 +53,9 @@ public class TrenchSpawner : MonoBehaviour
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
-                        // Finální umístění zákopu a tlačítka
+                        
                         var trench = Instantiate(trenchPrefab, spawnPosition, Quaternion.identity);
-                        trenches.Add(trench); // Přidáme zákop do seznamu
+                        trenches.Add(trench);
 
                         var button = Instantiate(trenchButtonPrefab, trenchControls.transform);
                         TrenchControlsMenu tb = button.GetComponent<TrenchControlsMenu>();
@@ -70,7 +76,7 @@ public class TrenchSpawner : MonoBehaviour
                         else
                         {
                             previewTrench.transform.position = spawnPosition;
-                            SetPreviewMaterial(previewTrench, true); // Nastavíme materiál na zelenou, pokud je uvnitř zóny a dostatečně daleko
+                            SetPreviewMaterial(previewTrench, true);
                         }
                     }
                 }
@@ -78,7 +84,7 @@ public class TrenchSpawner : MonoBehaviour
                 {
                     if (previewTrench != null)
                     {
-                        SetPreviewMaterial(previewTrench, false); // Nastavíme materiál na červenou, pokud není dostatečně daleko
+                        SetPreviewMaterial(previewTrench, false);
                     }
                 }
             }
@@ -86,7 +92,7 @@ public class TrenchSpawner : MonoBehaviour
             {
                 if (previewTrench != null)
                 {
-                    SetPreviewMaterial(previewTrench, false); // Nastavíme materiál na červenou, protože je mimo zónu
+                    SetPreviewMaterial(previewTrench, false);
                 }
             }
         }
@@ -94,19 +100,23 @@ public class TrenchSpawner : MonoBehaviour
 
     public void StartSpawning()
     {
-        if (trenchCount < maxTrenches)
+        if (moneyManager.money >= 100)
         {
-            isSpawning = true;
-
-            if (previewTrench != null)
+            if (trenchCount < maxTrenches)
             {
-                Destroy(previewTrench);
+                isSpawning = true;
+                moneyManager.OdectiPenize(100);
+                if (previewTrench != null)
+                {
+                    Destroy(previewTrench);
+                }
+            }
+            else
+            {
+                Debug.Log("Maximální počet zákopů již byl dosažen.");
             }
         }
-        else
-        {
-            Debug.Log("Maximální počet zákopů již byl dosažen.");
-        }
+        
     }
 
     private void SetPreviewMaterial(GameObject previewObject, bool canPlace)

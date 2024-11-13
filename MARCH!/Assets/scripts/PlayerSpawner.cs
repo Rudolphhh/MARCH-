@@ -11,70 +11,88 @@ public class PlayerSpawner : MonoBehaviour
     public List<Transform> spawnPoints;                   
     private List<Transform> remainingPoints;              
 
+    MoneyManager moneyManager;
 
     private void Start()
     {
-        
+        moneyManager = FindObjectOfType<MoneyManager>();
+
         ResetAndShuffleSpawnPoints();
     }
 
     public void SpawnRifler()
     {
-        if (remainingPoints.Count == 0)
+        if (moneyManager.money >= 10)
         {
-           
-            ResetAndShuffleSpawnPoints();
+            moneyManager.OdectiPenize(10);
+            if (remainingPoints.Count == 0)
+            {
+
+                ResetAndShuffleSpawnPoints();
+            }
+
+
+            Transform spawnPoint = remainingPoints[0];
+            remainingPoints.RemoveAt(0);
+
+
+            Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
+            Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
+
+
+            Instantiate(Rifler, spawnPoint.position, spawnRotation);
         }
-
         
-        Transform spawnPoint = remainingPoints[0];
-        remainingPoints.RemoveAt(0);
-
-
-        Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
-        Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
-
-
-        Instantiate(Rifler, spawnPoint.position, spawnRotation);
     }
 
     public void SpawnGunner()
     {
-        if (remainingPoints.Count == 0)
+        if (moneyManager.money >= 20)
         {
+            moneyManager.OdectiPenize(20);
+            if (remainingPoints.Count == 0)
+            {
 
-            ResetAndShuffleSpawnPoints();
+                ResetAndShuffleSpawnPoints();
+            }
+
+
+            Transform spawnPoint = remainingPoints[0];
+            remainingPoints.RemoveAt(0);
+
+
+            Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
+            Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
+
+
+            Instantiate(Gunner, spawnPoint.position, spawnRotation);
         }
-
-
-        Transform spawnPoint = remainingPoints[0];
-        remainingPoints.RemoveAt(0);
-
-
-        Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
-        Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
-
-
-        Instantiate(Gunner, spawnPoint.position, spawnRotation);
+        
     }
     public void SpawnSniper()
     {
-        if (remainingPoints.Count == 0)
+        if(moneyManager.money >= 35)
         {
+            moneyManager.OdectiPenize(35);
+            if (remainingPoints.Count == 0)
+            {
 
-            ResetAndShuffleSpawnPoints();
+                ResetAndShuffleSpawnPoints();
+            }
+
+
+            Transform spawnPoint = remainingPoints[0];
+            remainingPoints.RemoveAt(0);
+
+
+            Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
+            Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
+
+
+            Instantiate(Sniper, spawnPoint.position, spawnRotation);
         }
-
-
-        Transform spawnPoint = remainingPoints[0];
-        remainingPoints.RemoveAt(0);
-
-
-        Quaternion rotationOffset = Quaternion.Euler(0, 90, 0);
-        Quaternion spawnRotation = spawnPoint.rotation * rotationOffset;
-
-
-        Instantiate(Sniper, spawnPoint.position, spawnRotation);
+        
+        
     }
 
 

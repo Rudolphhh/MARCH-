@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovemt : MonoBehaviour
 {
-    public float moveSpeed = 15f;   
+    public float moveSpeed = 30f;   
     public float minX = -30f;       
     public float maxX = 30f;        
 

@@ -600,6 +600,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed6d68a56578204f8ea3c691cea9a59, type: 3}
+--- !u!114 &118393263 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5639160342773555648, guid: 9ed6d68a56578204f8ea3c691cea9a59, type: 3}
+  m_PrefabInstance: {fileID: 118393262}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &126341678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3565,6 +3576,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4394afa32985e9848b29a2d4ee335163, type: 3}
+--- !u!1001 &689629066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1161938564347136932, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_Name
+      value: MoneyManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.870227
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.421661
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -46.31583
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977809767062630559, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480044328896818777, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
+      propertyPath: moneyText
+      value: 
+      objectReference: {fileID: 118393263}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f3fa5e0b9a27cb4b8395f76e7363c3a, type: 3}
 --- !u!1 &702567994
 GameObject:
   m_ObjectHideFlags: 0
@@ -5169,6 +5241,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5250,6 +5323,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 20.016, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cb0db82c46d84499bba5d40a7dfd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 30
+  minX: -30
+  maxX: 30
 --- !u!4 &972354121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4128025754819866, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
@@ -10216,3 +10304,4 @@ SceneRoots:
   - {fileID: 118393262}
   - {fileID: 821360305}
   - {fileID: 10461357}
+  - {fileID: 689629066}

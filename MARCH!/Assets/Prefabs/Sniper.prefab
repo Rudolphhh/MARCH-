@@ -656,7 +656,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1721113441159272770, guid: 56485d3222e53b74f82e69a1e5a55a35, type: 3}
   bulletSpeed: 20
   firePoint: {fileID: 6188045934910627249}
-  soldierMovemnt: {fileID: 0}
+  soldierMovemnt: {fileID: 4191858034628309418}
   audioSource: {fileID: 2310515097636410681}
   shootingSound: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
   shootEffectPrefab: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
@@ -671,7 +671,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 71c237d4a9a46f549bf0632376fe6923, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.091
   m_Pitch: 1
