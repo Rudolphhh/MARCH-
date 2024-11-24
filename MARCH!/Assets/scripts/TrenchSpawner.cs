@@ -38,22 +38,33 @@ public class TrenchSpawner : MonoBehaviour
                 spawnPosition.y = -0.1600004f;
                 spawnPosition.z = -2.111162f;
 
-                // Kontrola vzdálenosti od ostatních zákopů
-                bool isFarEnough = true;
+                
+                bool isFarEnoughFromTrenches = true;
                 foreach (var trench in trenches)
                 {
                     if (Mathf.Abs(trench.transform.position.x - spawnPosition.x) < 11f)
                     {
-                        isFarEnough = false;
+                        isFarEnoughFromTrenches = false;
                         break;
                     }
                 }
 
-                if (isFarEnough)
+                
+                bool isAreaClearOfSoldiers = true;
+                Collider[] nearbyColliders = Physics.OverlapSphere(spawnPosition, 6f);
+                foreach (var collider in nearbyColliders)
+                {
+                    if (collider.CompareTag("Soldier") )
+                    {
+                        isAreaClearOfSoldiers = false;
+                        break;
+                    }
+                }
+
+                if (isFarEnoughFromTrenches && isAreaClearOfSoldiers)
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
-                        
                         var trench = Instantiate(trenchPrefab, spawnPosition, Quaternion.identity);
                         trenches.Add(trench);
 
