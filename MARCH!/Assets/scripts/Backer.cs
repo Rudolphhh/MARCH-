@@ -58,6 +58,7 @@ public class Backer : MonoBehaviour
             if (!trenchlocker.isLocked)
             {
                 soldier.GoingBack();
+
             }
             else
             {

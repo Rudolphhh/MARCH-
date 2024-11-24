@@ -619,6 +619,7 @@ GameObject:
   - component: {fileID: 6188045934910627249}
   - component: {fileID: 3752439315331562247}
   - component: {fileID: 2310515097636410681}
+  - component: {fileID: 622425089089224498}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -661,6 +662,7 @@ MonoBehaviour:
   shootingSound: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
   shootEffectPrefab: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
   reloadTime: 4
+  isReloading: 0
 --- !u!82 &2310515097636410681
 AudioSource:
   m_ObjectHideFlags: 0
@@ -757,6 +759,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &622425089089224498
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3462320366787149784}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0b4c54d7e420594c88add53e43cb410, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3468000658010197687
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,6 +29,7 @@ public class HiderBack : MonoBehaviour
             if (soldier != null)
             {
                 HideInTheTrenchFromGoingBack();
+
             }
         }
     }
@@ -55,7 +56,7 @@ public class HiderBack : MonoBehaviour
 
 
             soldier.direction = new Vector3(1, soldier.direction.y, soldier.direction.z);
-
+            soldier.isGoingBackward = false;
             Debug.Log("Soldier has returned to the trench, is facing forward, and has the correct direction.");
         
         

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
     [SerializeField]
-    private GameObject bulletPrefab;    
+    private GameObject bulletPrefab;
     public float bulletSpeed = 20f;
     [SerializeField]
     private Transform firePoint;
@@ -20,26 +20,61 @@ public class Shooter : MonoBehaviour
     [SerializeField]
     private float reloadTime = 2f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //InvokeRepeating("Shoot", 0f, reloadTime);
-    }
+    private bool isShooting = false; // Tracks if the soldier is currently shooting
+    private int originalSpeed; // To store the soldier's speed before shooting
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space)) // Detect single press of spacebar
+        {
+            isShooting = !isShooting; // Toggle shooting state
 
+            if (isShooting)
+            {
+                StartShooting();
+            }
+            else
+            {
+                StopShooting();
+            }
+        }
+    }
+
+    void StartShooting()
+    {
+        
+        originalSpeed = soldierMovemnt.speed;
+
+        
+        soldierMovemnt.speed *= 0;
+
+        
+        StartCoroutine(ShootingCoroutine());
+    }
+
+    void StopShooting()
+    {
+        
+        soldierMovemnt.speed = originalSpeed;
+
+        
+        StopAllCoroutines();
+    }
+
+    IEnumerator ShootingCoroutine()
+    {
+        while (isShooting)
+        {
+            Shoot();
+            yield return new WaitForSeconds(reloadTime); // Wait for the reload time between shots
+        }
     }
 
     void Shoot()
     {
         audioSource.Play();
-        if (soldierMovemnt.isGoingForward == true)
-        {
-            soldierMovemnt.isGoingForward = false;
-            soldierMovemnt.speed = 0;
-        }
+
         // Instantiate the bullet
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
