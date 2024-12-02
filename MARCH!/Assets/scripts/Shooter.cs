@@ -9,77 +9,47 @@ public class Shooter : MonoBehaviour
     public float bulletSpeed = 20f;
     [SerializeField]
     private Transform firePoint;
-    public SoldierMovement soldierMovemnt;
     public AudioSource audioSource;
     public AudioClip shootingSound;
 
     [SerializeField]
-    private GameObject shootEffectPrefab; // Reference to the particle effect prefab
+    private GameObject shootEffectPrefab; // Particle effect for shooting
 
     private float bulletLifeTime = 6f;
     [SerializeField]
-    private float reloadTime = 2f;
+    private float reloadTime = 2f; // Time between shots
 
-    private bool isShooting = false; // Tracks if the soldier is currently shooting
-    private int originalSpeed; // To store the soldier's speed before shooting
+    private bool isReloading = false; // Prevent shooting while reloading
 
-    // Update is called once per frame
-    void Update()
+    // Reference to the SoldierMovement script
+    [SerializeField] private SoldierMovement soldierMovement;
+
+    public void TryShoot()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // Detect single press of spacebar
+        if (!isReloading)
         {
-            isShooting = !isShooting; // Toggle shooting state
-
-            if (isShooting)
-            {
-                StartShooting();
-            }
-            else
-            {
-                StopShooting();
-            }
-        }
-    }
-
-    void StartShooting()
-    {
-        
-        originalSpeed = soldierMovemnt.speed;
-
-        
-        soldierMovemnt.speed *= 0;
-
-        
-        StartCoroutine(ShootingCoroutine());
-    }
-
-    void StopShooting()
-    {
-        
-        soldierMovemnt.speed = originalSpeed;
-
-        
-        StopAllCoroutines();
-    }
-
-    IEnumerator ShootingCoroutine()
-    {
-        while (isShooting)
-        {
+            soldierMovement.StartShooting(); // Stop the soldier from moving when shooting
             Shoot();
-            yield return new WaitForSeconds(reloadTime); // Wait for the reload time between shots
+            StartCoroutine(ReloadCoroutine());
         }
     }
 
-    void Shoot()
+    private void Shoot()
     {
-        audioSource.Play();
+        // Play shooting sound
+        if (audioSource != null && shootingSound != null)
+        {
+            audioSource.PlayOneShot(shootingSound);
+        }
 
         // Instantiate the bullet
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
-        // Instantiate particle effect at the firePoint position
-        Instantiate(shootEffectPrefab, firePoint.position, firePoint.rotation);
+        // Instantiate particle effect
+        if (shootEffectPrefab != null)
+        {
+            Instantiate(shootEffectPrefab, firePoint.position, firePoint.rotation);
+        }
 
         // Add force to the bullet
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
@@ -90,5 +60,13 @@ public class Shooter : MonoBehaviour
 
         // Destroy the bullet after its lifetime
         Destroy(bullet, bulletLifeTime);
+    }
+
+    private IEnumerator ReloadCoroutine()
+    {
+        isReloading = true; // Start reload
+        yield return new WaitForSeconds(reloadTime); // Wait for reload time
+        isReloading = false; // Allow shooting again
+        soldierMovement.StopShooting(); // Start walking again after reloading
     }
 }

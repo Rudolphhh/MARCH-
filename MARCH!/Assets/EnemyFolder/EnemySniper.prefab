@@ -1317,8 +1317,8 @@ GameObject:
   - component: {fileID: 3995105550632860067}
   - component: {fileID: 5502904550270100694}
   - component: {fileID: 6615212405493672665}
-  - component: {fileID: 8836896765401510175}
   - component: {fileID: 9102518153566431993}
+  - component: {fileID: 5529544748085851346}
   m_Layer: 0
   m_Name: EnemySniper
   m_TagString: EnemySoldier
@@ -1404,23 +1404,6 @@ MonoBehaviour:
   isGoingBackward: 0
   speed: 3
   direction: {x: -1, y: 0, z: 0}
---- !u!114 &8836896765401510175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6387733617556688623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e2005797f5d654baa315723adab655, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gun: {fileID: 7832378537267335412}
-  ShooterScript: {fileID: 0}
-  HP: 50
-  isDead: 0
-  isAlive: 1
 --- !u!54 &9102518153566431993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1448,6 +1431,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!114 &5529544748085851346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387733617556688623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e676c0901117e542b202845fbe93a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gun: {fileID: 7832378537267335412}
+  ShooterScript: {fileID: 2787998802227370243}
+  HP: 50
+  isDead: 0
+  isAlive: 1
 --- !u!1 &6418200030746177553
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    private Health health;
+    private EnemyHealth ehealth;
     private Rigidbody rb;
     private Animator mAnimator;
 
@@ -21,7 +21,7 @@ public class EnemyMovement : MonoBehaviour
     public void Start()
     {
         
-        health = GetComponent<Health>();
+        ehealth = GetComponent<EnemyHealth>();
         rb = GetComponent<Rigidbody>();
         mAnimator = GetComponent<Animator>();
     }
@@ -29,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        if (health.isDead == false)
+        if (ehealth.isDead == false)
         {
             if (mAnimator != null)
             {
@@ -43,18 +43,18 @@ public class EnemyMovement : MonoBehaviour
                 }
             }
         }
-        else if (health.isDead == true && isGoingForward == true)
+        else if (ehealth.isDead == true && isGoingForward == true)
         {
             isGoingForward = false;
             mAnimator.SetBool("isDeadWhileWalking", true);
             mAnimator.SetBool("isWalkingAnim", false);
         }
-        else if (health.isDead == true && isGoingForward == false)
+        else if (ehealth.isDead == true && isGoingForward == false)
         {
             mAnimator.SetBool("isDeadWhileIdle", true);
         }
 
-        if (health.isAlive)
+        if (ehealth.isAlive)
         {
             if (isInTrench)
             {
@@ -75,7 +75,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void GoingBack()
     {
-        if (health.isAlive)
+        if (ehealth.isAlive)
         {
             if (!isGoingBackward)
             {
