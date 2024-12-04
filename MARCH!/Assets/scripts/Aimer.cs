@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Aimer : MonoBehaviour
 {
+    [SerializeField]
     public float detectionRadius = 10f; // Detection range for enemies
     public Shooter shooter; // Reference to Shooter script
 

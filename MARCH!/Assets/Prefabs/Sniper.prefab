@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 3752439315331562247}
   - component: {fileID: 2310515097636410681}
   - component: {fileID: 622425089089224498}
+  - component: {fileID: 5792689941365452999}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -654,14 +655,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06125acccadf1a048b741989cdcd91e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1721113441159272770, guid: 56485d3222e53b74f82e69a1e5a55a35, type: 3}
+  bulletPrefab: {fileID: 1721113441159272770, guid: 80d467e743b31d745a190ed7275391bd, type: 3}
   bulletSpeed: 20
   firePoint: {fileID: 6188045934910627249}
-  soldierMovemnt: {fileID: 4191858034628309418}
   audioSource: {fileID: 2310515097636410681}
   shootingSound: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
   shootEffectPrefab: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
   reloadTime: 4
+  soldierMovement: {fileID: 4191858034628309418}
 --- !u!82 &2310515097636410681
 AudioSource:
   m_ObjectHideFlags: 0
@@ -779,6 +780,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5792689941365452999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3462320366787149784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0fd845cbbd1d324689e37a3353229ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 15
+  shooter: {fileID: 3752439315331562247}
 --- !u!1 &3468000658010197687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,8 +1497,9 @@ MonoBehaviour:
   isInTrench: 0
   isGoingForward: 1
   isGoingBackward: 0
-  speed: 3
+  speed: 2
   direction: {x: 1, y: 0, z: 0}
+  shooter: {fileID: 3752439315331562247}
 --- !u!114 &5424413514247517620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,7 +1512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e2005797f5d654baa315723adab655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gun: {fileID: 0}
+  gun: {fileID: 2878615967498586848}
   ShooterScript: {fileID: 3752439315331562247}
   HP: 50
   isDead: 0
@@ -2398,5 +2414,10 @@ PrefabInstance:
 --- !u!4 &2874728350035991564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4774560213069558, guid: bf725a55d4a314f4399c4ab25466c048, type: 3}
+  m_PrefabInstance: {fileID: 2879454222461874938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2878615967498586848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1976524476774426, guid: bf725a55d4a314f4399c4ab25466c048, type: 3}
   m_PrefabInstance: {fileID: 2879454222461874938}
   m_PrefabAsset: {fileID: 0}

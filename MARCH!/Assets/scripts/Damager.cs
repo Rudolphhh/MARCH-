@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Damager : MonoBehaviour
 {
+
     public int damageAmount = 100; // Set damage amount
 
     // This method is called when the bullet enters a trigger collider
