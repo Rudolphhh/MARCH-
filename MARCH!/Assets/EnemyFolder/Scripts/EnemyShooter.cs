@@ -9,42 +9,47 @@ public class EnemyShooter : MonoBehaviour
     public float bulletSpeed = 20f;
     [SerializeField]
     private Transform firePoint;
-    public EnemyMovement EnemysoldierMovemnt;
     public AudioSource audioSource;
     public AudioClip shootingSound;
 
     [SerializeField]
-    private GameObject shootEffectPrefab; // Reference to the particle effect prefab
+    private GameObject shootEffectPrefab; // Particle effect for shooting
 
     private float bulletLifeTime = 6f;
     [SerializeField]
-    private float reloadTime = 2f;
+    private float reloadTime = 2f; // Time between shots
 
-    // Start is called before the first frame update
-    void Start()
+    private bool isReloading = false; // Prevent shooting while reloading
+
+    // Reference to the SoldierMovement script
+    [SerializeField] private EnemyMovement EnemyMovement;
+
+    public void TryShoot()
     {
-        //InvokeRepeating("Shoot", 0f, reloadTime);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    void Shoot()
-    {
-        audioSource.Play();
-        if (EnemysoldierMovemnt.isGoingForward == true)
+        if (!isReloading)
         {
-            EnemysoldierMovemnt.isGoingForward = false;
-            EnemysoldierMovemnt.speed = 0;
+            EnemyMovement.StartShooting(); // Stop the soldier from moving when shooting
+            Shoot();
+            StartCoroutine(ReloadCoroutine());
         }
+    }
+
+    private void Shoot()
+    {
+        // Play shooting sound
+        if (audioSource != null && shootingSound != null)
+        {
+            audioSource.PlayOneShot(shootingSound);
+        }
+
         // Instantiate the bullet
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
-        // Instantiate particle effect at the firePoint position
-        Instantiate(shootEffectPrefab, firePoint.position, firePoint.rotation);
+        // Instantiate particle effect
+        if (shootEffectPrefab != null)
+        {
+            Instantiate(shootEffectPrefab, firePoint.position, firePoint.rotation);
+        }
 
         // Add force to the bullet
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
@@ -55,5 +60,13 @@ public class EnemyShooter : MonoBehaviour
 
         // Destroy the bullet after its lifetime
         Destroy(bullet, bulletLifeTime);
+    }
+
+    private IEnumerator ReloadCoroutine()
+    {
+        isReloading = true; // Start reload
+        yield return new WaitForSeconds(reloadTime); // Wait for reload time
+        isReloading = false; // Allow shooting again
+        EnemyMovement.StopShooting(); // Start walking again after reloading
     }
 }

@@ -20,7 +20,7 @@ public class Damager : MonoBehaviour
             if (enemyHealth != null)
             {
                 enemyHealth.HP -= damageAmount; // Subtract health from the enemy
-                Debug.Log("hitted");
+                
             }
 
             // Destroy the bullet (optional)

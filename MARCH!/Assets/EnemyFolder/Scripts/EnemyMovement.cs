@@ -17,6 +17,8 @@ public class EnemyMovement : MonoBehaviour
 
     public Vector3 direction = new Vector3(-1, 0, 0); // Směr z pravé strany doleva
 
+    private bool isShooting = false;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -71,6 +73,19 @@ public class EnemyMovement : MonoBehaviour
                 transform.position += direction.normalized * speed * Time.deltaTime;
             }
         }
+    }
+
+    public void StartShooting()
+    {
+        isShooting = true;
+        mAnimator.SetBool("isWalkingAnim", false); // Stop the walking animation
+    }
+
+    // Call this method to stop shooting and resume moving
+    public void StopShooting()
+    {
+        isShooting = false;
+        mAnimator.SetBool("isWalkingAnim", true); // Resume the walking animation
     }
 
     public void GoingBack()

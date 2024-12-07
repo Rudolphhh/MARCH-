@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     public MonoBehaviour ShooterScript;
 
     [SerializeField]
-    private int HP;
+    public int HP;
     public bool isDead = false;
     public bool isAlive;
 
@@ -41,6 +41,7 @@ public class Health : MonoBehaviour
         isDead = true;
         isAlive = false;
 
+        gameObject.tag = "killedSoldier";
 
         if (ShooterScript != null)
         {

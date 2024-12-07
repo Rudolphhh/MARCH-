@@ -1104,6 +1104,7 @@ GameObject:
   - component: {fileID: 523251952739536022}
   - component: {fileID: 2787998802227370243}
   - component: {fileID: 3467505677651874275}
+  - component: {fileID: 3239787943728550659}
   m_Layer: 0
   m_Name: EnemyShooter
   m_TagString: Untagged
@@ -1138,14 +1139,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a2fc7be4ad25348814ecb244e9340f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1721113441159272770, guid: d5126b80fbec0be4ab87c8a68003f552, type: 3}
-  bulletSpeed: 20
+  bulletPrefab: {fileID: 1721113441159272770, guid: a5c9a265c68240b4eb6fac795b27aff2, type: 3}
+  bulletSpeed: 30
   firePoint: {fileID: 523251952739536022}
-  EnemysoldierMovemnt: {fileID: 6615212405493672665}
   audioSource: {fileID: 3467505677651874275}
   shootingSound: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
   shootEffectPrefab: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
   reloadTime: 4
+  EnemyMovement: {fileID: 6615212405493672665}
 --- !u!82 &3467505677651874275
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1242,6 +1243,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3239787943728550659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210578815504265169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d631b52a708ead4da0312d86881b747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 10
+  Enemyshooter: {fileID: 2787998802227370243}
 --- !u!1 &6229859136674798739
 GameObject:
   m_ObjectHideFlags: 0

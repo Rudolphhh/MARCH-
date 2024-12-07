@@ -661,7 +661,7 @@ MonoBehaviour:
   audioSource: {fileID: 2310515097636410681}
   shootingSound: {fileID: 8300000, guid: adf827018fc325d49b2453164cc4010b, type: 3}
   shootEffectPrefab: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
-  reloadTime: 0.5
+  reloadTime: 0.3
   soldierMovement: {fileID: 9137056298750280020}
 --- !u!82 &2310515097636410681
 AudioSource:
