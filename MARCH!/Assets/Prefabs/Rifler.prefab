@@ -853,7 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fd845cbbd1d324689e37a3353229ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 10
+  detectionRadius: 11
   shooter: {fileID: 3752439315331562247}
 --- !u!1 &3468000658010197687
 GameObject:

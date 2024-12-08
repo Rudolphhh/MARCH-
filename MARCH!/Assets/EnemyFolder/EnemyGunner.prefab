@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d631b52a708ead4da0312d86881b747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 7
+  detectionRadius: 8
   Enemyshooter: {fileID: 2787998802227370243}
 --- !u!1 &6229859136674798739
 GameObject:
