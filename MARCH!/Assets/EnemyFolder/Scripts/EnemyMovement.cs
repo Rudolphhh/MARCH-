@@ -73,7 +73,13 @@ public class EnemyMovement : MonoBehaviour
                 transform.position += direction.normalized * speed * Time.deltaTime;
             }
         }
+
+        if (!isShooting && ehealth.isAlive && !isInTrench)
+        {
+            transform.position += direction.normalized * speed * Time.deltaTime;
+        }
     }
+
 
     public void StartShooting()
     {

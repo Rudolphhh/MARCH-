@@ -1417,7 +1417,7 @@ MonoBehaviour:
   isInTrench: 0
   isGoingForward: 1
   isGoingBackward: 0
-  speed: 3
+  speed: 2
   direction: {x: -1, y: 0, z: 0}
 --- !u!54 &9102518153566431993
 Rigidbody:
