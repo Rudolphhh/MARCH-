@@ -9,9 +9,9 @@ public class EnemyOuter : MonoBehaviour
 
     void Start()
     {
-        
+
         InvokeRepeating("EnemyMarchForwardFromTheTrench", 10f, 10f);
-        
+
     }
 
     // Update is called once per frame
@@ -49,9 +49,19 @@ public class EnemyOuter : MonoBehaviour
 
     public void EnemyMarchForwardFromTheTrench()
     {
-        
-        foreach (GameObject soldierObj in EnemysoldiersInTrench)
+
+        for (int i = EnemysoldiersInTrench.Count - 1; i >= 0; i--)
         {
+            GameObject soldierObj = EnemysoldiersInTrench[i];
+
+            // Check if the soldier is null (destroyed)
+            if (soldierObj == null)
+            {
+                EnemysoldiersInTrench.RemoveAt(i);
+                Debug.Log("Removed a destroyed enemy from the list.");
+                continue;
+            }
+
             EnemyMovement soldier = soldierObj.GetComponent<EnemyMovement>();
 
             if (soldier != null)
@@ -73,12 +83,10 @@ public class EnemyOuter : MonoBehaviour
                 }
                 else if (soldier.name.Contains("EnemySniper"))
                 {
-                    soldier.speed = 3;
+                    soldier.speed = 2;
                 }
-                
-                
             }
         }
-    }
 
+    }
 }
