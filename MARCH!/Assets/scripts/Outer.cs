@@ -58,9 +58,19 @@ public class Outer : MonoBehaviour
 
     public void MarchForwardFromTheTrench()
     {
-        
-        foreach (GameObject soldierObj in soldiersInTrench)
+
+        for (int i = soldiersInTrench.Count - 1; i >= 0; i--)
         {
+            GameObject soldierObj = soldiersInTrench[i];
+
+            // Check if the soldier is null (destroyed)
+            if (soldierObj == null)
+            {
+                soldiersInTrench.RemoveAt(i);
+                Debug.Log("Removed a destroyed soldier from the list.");
+                continue;
+            }
+
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
 
             if (soldier != null)
@@ -72,8 +82,6 @@ public class Outer : MonoBehaviour
                 soldier.isInTrench = false;
                 soldier.isGoingForward = true;
 
-
-
                 if (soldier.name.Contains("Rifler"))
                 {
                     soldier.speed = 2;
@@ -84,11 +92,8 @@ public class Outer : MonoBehaviour
                 }
                 else if (soldier.name.Contains("Sniper"))
                 {
-                    soldier.speed = 3;
+                    soldier.speed = 2;
                 }
-
-
-
             }
         }
     }
