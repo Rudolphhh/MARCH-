@@ -70,7 +70,7 @@ public class EnemyMovement : MonoBehaviour
                 rb.constraints = RigidbodyConstraints.FreezePositionZ
                     | RigidbodyConstraints.FreezePositionY
                     | RigidbodyConstraints.FreezeRotation;
-                transform.position += direction.normalized * speed * Time.deltaTime;
+                
             }
         }
 
