@@ -12,9 +12,9 @@ public class TrenchSpawner : MonoBehaviour
     public GameObject trenchControls;
     MoneyManager moneyManager;
     private bool isSpawning = false;
-    private GameObject previewTrench; //trench kde vidim kde se spawne trench az kliknu
+    private GameObject previewTrench;
     private int trenchCount = 0;
-    private int maxTrenches = 3; // max pocet trenchu ve scene
+    private int maxTrenches = 3;
     private List<GameObject> trenches = new List<GameObject>();
 
     private void Start()

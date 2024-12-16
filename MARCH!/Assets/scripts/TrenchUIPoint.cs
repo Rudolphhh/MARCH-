@@ -19,16 +19,13 @@ public class TrenchUIPoint : MonoBehaviour
         backer.GoingBackToTheTrench();
     }
 
-    // Start is called before the first frame update
+   
     void Start()
     {
         outer = GetComponentInChildren<Outer>();
         backer = GetComponentInChildren<Backer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
+    
 }

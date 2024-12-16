@@ -11,12 +11,12 @@ public class MoneyManager : MonoBehaviour
 
     void Start()
     {
-        UpdateMoneyText(); // Aktualizace textu při startu
+        UpdateMoneyText();
     }
 
     void Update()
     {
-        // Přidá 7 peněz každou sekundu
+        
         timeSinceLastIncome += Time.deltaTime;
         if (timeSinceLastIncome >= 1f)
         {
@@ -26,7 +26,7 @@ public class MoneyManager : MonoBehaviour
         }
     }
 
-    // Metoda pro odečtení peněz
+    
     public void OdectiPenize(int hodnotaOdecitanychPenez)
     {
         if (money >= hodnotaOdecitanychPenez)
@@ -40,7 +40,7 @@ public class MoneyManager : MonoBehaviour
         }
     }
 
-    // Aktualizuje text zobrazující aktuální hodnotu peněz
+    
     private void UpdateMoneyText()
     {
         moneyText.text = money.ToString();

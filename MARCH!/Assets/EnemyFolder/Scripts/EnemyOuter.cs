@@ -54,7 +54,7 @@ public class EnemyOuter : MonoBehaviour
         {
             GameObject soldierObj = EnemysoldiersInTrench[i];
 
-            // Check if the soldier is null (destroyed)
+            
             if (soldierObj == null)
             {
                 EnemysoldiersInTrench.RemoveAt(i);

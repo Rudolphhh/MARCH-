@@ -23,7 +23,7 @@ public class Outer : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
@@ -63,7 +63,7 @@ public class Outer : MonoBehaviour
         {
             GameObject soldierObj = soldiersInTrench[i];
 
-            // Check if the soldier is null (destroyed)
+            
             if (soldierObj == null)
             {
                 soldiersInTrench.RemoveAt(i);

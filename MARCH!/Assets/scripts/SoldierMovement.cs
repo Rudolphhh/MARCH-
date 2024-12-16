@@ -19,12 +19,12 @@ public class SoldierMovement : MonoBehaviour
 
     public Vector3 direction = new Vector3(1, 0, 0);
 
-    private bool isShooting = false; // Track if soldier is shooting
+    private bool isShooting = false;
 
-    // Reference to the Shooter script
+    
     [SerializeField] private Shooter shooter;
 
-    // Start is called before the first frame update
+    
     public void Start()
     {
         health = GetComponent<Health>();
@@ -32,7 +32,7 @@ public class SoldierMovement : MonoBehaviour
         mAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    
     public void Update()
     {
         if (health.isDead == false)
@@ -65,7 +65,7 @@ public class SoldierMovement : MonoBehaviour
             mAnimator.SetBool("isDeadWhileIdle", true);
         }
 
-        // Stop movement when shooting
+        
         if (!isShooting && health.isAlive && !isInTrench)
         {
             transform.position += direction.normalized * speed * Time.deltaTime;
@@ -89,18 +89,18 @@ public class SoldierMovement : MonoBehaviour
         }
     }
 
-    // Call this method to start shooting and stop moving
+    
     public void StartShooting()
     {
         isShooting = true;
-        mAnimator.SetBool("isWalkingAnim", false); // Stop the walking animation
+        mAnimator.SetBool("isWalkingAnim", false);
     }
 
-    // Call this method to stop shooting and resume moving
+    
     public void StopShooting()
     {
         isShooting = false;
-        mAnimator.SetBool("isWalkingAnim", true); // Resume the walking animation
+        mAnimator.SetBool("isWalkingAnim", true);
     }
 
     public void GoingBack()

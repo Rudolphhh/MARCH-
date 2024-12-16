@@ -15,11 +15,11 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField]
     public int speed;
 
-    public Vector3 direction = new Vector3(-1, 0, 0); // Směr z pravé strany doleva
+    public Vector3 direction = new Vector3(-1, 0, 0);
 
     private bool isShooting = false;
 
-    // Start is called before the first frame update
+   
     public void Start()
     {
         
@@ -28,7 +28,7 @@ public class EnemyMovement : MonoBehaviour
         mAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    
     public void Update()
     {
         if (ehealth.isDead == false)
@@ -84,14 +84,14 @@ public class EnemyMovement : MonoBehaviour
     public void StartShooting()
     {
         isShooting = true;
-        mAnimator.SetBool("isWalkingAnim", false); // Stop the walking animation
+        mAnimator.SetBool("isWalkingAnim", false);
     }
 
-    // Call this method to stop shooting and resume moving
+    
     public void StopShooting()
     {
         isShooting = false;
-        mAnimator.SetBool("isWalkingAnim", true); // Resume the walking animation
+        mAnimator.SetBool("isWalkingAnim", true);
     }
 
     public void GoingBack()
@@ -100,8 +100,8 @@ public class EnemyMovement : MonoBehaviour
         {
             if (!isGoingBackward)
             {
-                direction = new Vector3(-direction.x, direction.y, direction.z); // Změna směru na opačný
-                transform.Rotate(0, 180, 0); // Otočení modelu o 180 stupňů
+                direction = new Vector3(-direction.x, direction.y, direction.z);
+                transform.Rotate(0, 180, 0);
 
                 isGoingForward = false;
                 isGoingBackward = true;
