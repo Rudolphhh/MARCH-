@@ -31,6 +31,7 @@ public class Hider : MonoBehaviour
             if (soldier != null)
             {
                 HideInTheTrench();
+                
             }
         }
         

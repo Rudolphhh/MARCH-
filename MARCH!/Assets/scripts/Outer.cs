@@ -1,43 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Net.Security;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Outer : MonoBehaviour
 {
     private List<GameObject> soldiersInTrench = new List<GameObject>();
+    private Dictionary<GameObject, int> originalHPs = new Dictionary<GameObject, int>(); // Sledování původních HP
 
     [SerializeField]
     private TrenchLocker trenchlocker;
 
-    
     void Start()
     {
-        
         if (trenchlocker == null)
         {
             trenchlocker = FindObjectOfType<TrenchLocker>();
         }
-        InvokeRepeating("HandleMarch",2f, 2f);
-        
-    }
-
-    
-    void Update()
-    {
-        
+        InvokeRepeating("HandleMarch", 2f, 2f);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Soldier"))
         {
-            
             if (!soldiersInTrench.Contains(other.gameObject))
             {
                 soldiersInTrench.Add(other.gameObject);
                 Debug.Log("Player added to soldiersInTrench.");
+
+                Health health = other.GetComponent<Health>();
+                if (health != null)
+                {
+                    if (!originalHPs.ContainsKey(other.gameObject))
+                    {
+                        originalHPs[other.gameObject] = health.HP;
+                    }
+                    health.HP *= 2;
+                    Debug.Log($"Soldier {other.name} HP doubled to {health.HP}.");
+                }
             }
         }
     }
@@ -50,20 +50,24 @@ public class Outer : MonoBehaviour
             {
                 soldiersInTrench.Remove(other.gameObject);
                 Debug.Log("Player removed from soldiersInTrench.");
+
+                Health health = other.GetComponent<Health>();
+                if (health != null && originalHPs.ContainsKey(other.gameObject))
+                {
+                    health.HP = originalHPs[other.gameObject];
+                    Debug.Log($"Soldier {other.name} HP restored to {health.HP}.");
+                    originalHPs.Remove(other.gameObject);
+                }
             }
         }
     }
 
-    
-
     public void MarchForwardFromTheTrench()
     {
-
         for (int i = soldiersInTrench.Count - 1; i >= 0; i--)
         {
             GameObject soldierObj = soldiersInTrench[i];
 
-            
             if (soldierObj == null)
             {
                 soldiersInTrench.RemoveAt(i);
@@ -98,7 +102,6 @@ public class Outer : MonoBehaviour
         }
     }
 
-
     public void HandleMarch()
     {
         if (trenchlocker != null && trenchlocker.isLocked)
@@ -111,5 +114,4 @@ public class Outer : MonoBehaviour
             Debug.Log("waiting for button click go");
         }
     }
-
 }
