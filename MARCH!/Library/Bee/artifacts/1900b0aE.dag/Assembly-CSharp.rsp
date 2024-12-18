@@ -359,6 +359,7 @@
 "Assets/EnemyFolder/Scripts/EnemyMovement.cs"
 "Assets/EnemyFolder/Scripts/EnemyOuter.cs"
 "Assets/EnemyFolder/Scripts/EnemyShooter.cs"
+"Assets/EnemyFolder/Scripts/EnemySpawner.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs"
