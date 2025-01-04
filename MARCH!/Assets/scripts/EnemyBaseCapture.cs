@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -37,6 +38,7 @@ public class EnemyBaseCapture : MonoBehaviour
         if (winScreen != null)
         {
             winScreen.SetActive(true);
+            UnlockNewLevl();
             Time.timeScale = 0f;
         }
         else
@@ -44,5 +46,17 @@ public class EnemyBaseCapture : MonoBehaviour
             Debug.LogWarning("WinScreen není přiřazen v Inspectoru!");
         }
     }
+
+    void UnlockNewLevl()
+    {
+        if(SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
+        {
+            PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("UnlockedLevl", PlayerPrefs.GetInt("UnlockedLevl", 1) + 1);
+            PlayerPrefs.Save();
+        }
+    }
+
+
 
 }
