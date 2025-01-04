@@ -35,6 +35,7 @@ public class BaseCaptures : MonoBehaviour
         if (loseScreen != null)
         {
             loseScreen.SetActive(true);
+            Time.timeScale = 0f;
         }
         else
         {
