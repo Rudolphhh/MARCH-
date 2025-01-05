@@ -387,6 +387,7 @@
 "Assets/scripts/MoneyManager.cs"
 "Assets/scripts/NormalSoldier.cs"
 "Assets/scripts/Outer.cs"
+"Assets/scripts/PauseButttonMenu.cs"
 "Assets/scripts/PlayerSpawner.cs"
 "Assets/scripts/Shooter.cs"
 "Assets/scripts/SoldierMovement.cs"
