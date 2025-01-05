@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -14,6 +16,9 @@ public class EnemyHealth : MonoBehaviour
     public int HP;
     public bool isDead = false;
     public bool isAlive;
+
+
+    public TMP_Text killedEnemiesText;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +63,8 @@ public class EnemyHealth : MonoBehaviour
             Destroy(gun);
         }
         Destroy(gameObject, 6f);
-
+        
     }
+
+    
 }
