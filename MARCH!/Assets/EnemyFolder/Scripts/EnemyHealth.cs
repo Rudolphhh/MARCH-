@@ -1,8 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -17,8 +16,8 @@ public class EnemyHealth : MonoBehaviour
     public bool isDead = false;
     public bool isAlive;
 
-
-    public TMP_Text killedEnemiesText;
+    
+    public KillCounter killCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +25,15 @@ public class EnemyHealth : MonoBehaviour
         isAlive = true;
         mAnimator = GetComponent<Animator>();
 
+        if (killCounter == null)
+        {
+            killCounter = FindObjectOfType<KillCounter>();
+        }
+
+        if (killCounter == null)
+        {
+            Debug.LogError("No KillCounter found in the scene. Please add one.");
+        }
     }
 
     // Update is called once per frame
@@ -34,15 +42,8 @@ public class EnemyHealth : MonoBehaviour
         if (HP <= 0 && !isDead)
         {
             Killed();
-
         }
-
-
-
-
     }
-
-    
 
     private void Killed()
     {
@@ -51,20 +52,22 @@ public class EnemyHealth : MonoBehaviour
 
         gameObject.tag = "killedEnemySoldier";
 
-
         if (ShooterScript != null)
         {
             ShooterScript.enabled = false;
         }
 
-
         if (gun != null)
         {
             Destroy(gun);
         }
-        Destroy(gameObject, 6f);
-        
-    }
 
-    
+        
+        if (killCounter != null)
+        {
+            killCounter.AddKill();
+        }
+
+        Destroy(gameObject, 6f);
+    }
 }

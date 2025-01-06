@@ -383,6 +383,7 @@
 "Assets/scripts/Health.cs"
 "Assets/scripts/Hider.cs"
 "Assets/scripts/HiderBack.cs"
+"Assets/scripts/KillCounter.cs"
 "Assets/scripts/LevelMenu.cs"
 "Assets/scripts/MoneyManager.cs"
 "Assets/scripts/NormalSoldier.cs"
