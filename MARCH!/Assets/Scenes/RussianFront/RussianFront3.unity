@@ -8225,11 +8225,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: spawnInterval
-      value: 30
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: numEnemyGunners
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: numEnemyRiflers
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: numEnemySnipers
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2323565605928223395, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: m_Name
