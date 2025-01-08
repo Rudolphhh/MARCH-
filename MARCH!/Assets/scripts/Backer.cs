@@ -49,16 +49,19 @@ public class Backer : MonoBehaviour
     
     public void GoingBackToTheTrench()
     {
-        
+
         foreach (GameObject soldierObj in soldiersInTheRangeOfGoingBackToTrench)
         {
+            if (soldierObj == null)
+            {
+                continue;
+            }
+
             NormalSoldier soldier = soldierObj.GetComponent<NormalSoldier>();
 
-            
             if (!trenchlocker.isLocked)
             {
                 soldier.GoingBack();
-
             }
             else
             {
