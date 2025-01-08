@@ -380,6 +380,8 @@
 "Assets/scripts/CameraMovemt.cs"
 "Assets/scripts/Damager.cs"
 "Assets/scripts/EnemyBaseCapture.cs"
+"Assets/scripts/GasDamager.cs"
+"Assets/scripts/GasSpawner.cs"
 "Assets/scripts/Health.cs"
 "Assets/scripts/Hider.cs"
 "Assets/scripts/HiderBack.cs"
