@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     private Vector3 direction;
     private Animator mAnimator;
     public GameObject gun;
+    public GameObject gun2;
     public MonoBehaviour ShooterScript;
 
     [SerializeField]
@@ -61,8 +62,12 @@ public class EnemyHealth : MonoBehaviour
         {
             Destroy(gun);
         }
+        if (gun2 != null)
+        {
+            Destroy(gun2);
+        }
 
-        
+
         if (killCounter != null)
         {
             killCounter.AddKill();

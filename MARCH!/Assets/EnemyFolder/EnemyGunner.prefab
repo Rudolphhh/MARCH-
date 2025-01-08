@@ -1628,10 +1628,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 2301354192310959719}
+  gun2: {fileID: 7938233090867135947}
   ShooterScript: {fileID: 2787998802227370243}
   HP: 150
   isDead: 0
   isAlive: 1
+  killCounter: {fileID: 0}
 --- !u!1 &6418200030746177553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2465,6 +2467,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3de4176aa5f346842ac8c10eb3f42b9a, type: 3}
+--- !u!1 &7938233090867135947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1835165197954372, guid: 3de4176aa5f346842ac8c10eb3f42b9a, type: 3}
+  m_PrefabInstance: {fileID: 7938933422588258447}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7943737146335245229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4806216458591010, guid: 3de4176aa5f346842ac8c10eb3f42b9a, type: 3}

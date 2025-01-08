@@ -8,6 +8,7 @@ public class Health : MonoBehaviour
     private Vector3 direction;
     private Animator mAnimator;
     public GameObject gun;
+    public GameObject gun2;
     public MonoBehaviour ShooterScript;
 
     [SerializeField]
@@ -52,6 +53,11 @@ public class Health : MonoBehaviour
         if (gun != null)
         {
             Destroy(gun);
+        }
+
+        if (gun2 != null)
+        {
+            Destroy(gun2);
         }
         Destroy(gameObject, 6f);
 
