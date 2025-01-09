@@ -61,7 +61,18 @@ public class TrenchSpawner : MonoBehaviour
                     }
                 }
 
-                if (isFarEnoughFromTrenches && isAreaClearOfSoldiers)
+                bool isAreaClearOfEnemySoldiers = true;
+                Collider[] nearbyEnemyColliders = Physics.OverlapSphere(spawnPosition, 6f);
+                foreach (var collider in nearbyColliders)
+                {
+                    if (collider.CompareTag("EnemySoldier"))
+                    {
+                        isAreaClearOfEnemySoldiers = false;
+                        break;
+                    }
+                }
+
+                if (isFarEnoughFromTrenches && isAreaClearOfSoldiers && isAreaClearOfEnemySoldiers)
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
