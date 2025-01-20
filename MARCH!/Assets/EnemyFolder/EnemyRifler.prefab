@@ -1627,10 +1627,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 7832378537267335412}
+  gun2: {fileID: 0}
   ShooterScript: {fileID: 2787998802227370243}
   HP: 100
   isDead: 0
   isAlive: 1
+  killCounter: {fileID: 0}
 --- !u!1 &6418200030746177553
 GameObject:
   m_ObjectHideFlags: 0

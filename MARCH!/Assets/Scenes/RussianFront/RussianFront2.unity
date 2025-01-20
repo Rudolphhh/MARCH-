@@ -1655,6 +1655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gasPrefab: {fileID: 7850435717460047848, guid: 36f687941a8cde34ebaee92674582d7d, type: 3}
   validZone: {fileID: 1349478962}
+  moneyManager: {fileID: 0}
 --- !u!4 &763121452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4701647084931890, guid: 384d7371a017d974697166bc1f90ad26, type: 3}
@@ -2890,6 +2891,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemyGunner
+      value: 
+      objectReference: {fileID: 1710997756873080, guid: ad44ab328bbaacc4b874fe092f7d1e88, type: 3}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemyRifler
+      value: 
+      objectReference: {fileID: 1710997756873080, guid: 50b946d38047c2949abfb8f408f56b0e, type: 3}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemySniper
+      value: 
+      objectReference: {fileID: 1710997756873080, guid: cf0b3628dbeb30a40b13f9a4ec15b38c, type: 3}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: spawnInterval
       value: 25
