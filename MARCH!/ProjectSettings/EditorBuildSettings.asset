@@ -50,4 +50,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RussianFront/RussianFront7.unity
     guid: e1ac09b1003b9114d899bd4d83d4fec9
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront1.unity
+    guid: eaa8b6905f6d4244b863d0dee528c470
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront2.unity
+    guid: a28034ead9740fa49b56fb8d7d8cedad
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront3.unity
+    guid: 2032f3b0e5793e3489c213f518d1cf14
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront4.unity
+    guid: 47e300cd2da218d4997cfb3a5c24bb88
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront5.unity
+    guid: 4bf91d81736a0e84e80ab4bb3863edf0
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront6.unity
+    guid: ca83f51e8ec7c4240b12d06ec8c3b2c7
+  - enabled: 1
+    path: Assets/Scenes/FrenchFront/FrenchFront7.unity
+    guid: 49e194b54faf62a4a88233f755685d89
   m_configObjects: {}
