@@ -6,6 +6,8 @@ public class Damager : MonoBehaviour
 {
 
     public int damageAmount = 100;
+
+    
     void OnTriggerEnter(Collider other)
     {
         

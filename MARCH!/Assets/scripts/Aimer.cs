@@ -38,6 +38,7 @@ public class Aimer : MonoBehaviour
             }
         }
 
+
         
         currentTarget = enemies.Count > 0 ? enemies[0] : null;
     }

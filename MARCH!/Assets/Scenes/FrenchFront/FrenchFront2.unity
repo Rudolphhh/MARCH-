@@ -3025,7 +3025,7 @@ MonoBehaviour:
   trenchButtonPrefab: {fileID: 954476449750041334, guid: dd564693dc35b464a88e1803ff918e7b, type: 3}
   trenchPreviewPrefab: {fileID: 8287842813018174037, guid: 8d450608ba772a44aa7030c45ca231b0, type: 3}
   spawnZone: {fileID: 98673401}
-  trenchControls: {fileID: 0}
+  trenchControls: {fileID: 1311306402}
 --- !u!65 &98673401
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16847,7 +16847,7 @@ PrefabInstance:
     - target: {fileID: 1494968397297739568, guid: 9ed6d68a56578204f8ea3c691cea9a59, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 98673400}
     - target: {fileID: 1494968397297739568, guid: 9ed6d68a56578204f8ea3c691cea9a59, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -35091,11 +35091,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: numEnemyGunners
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: numEnemyRiflers
-      value: 3
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: numEnemySnipers
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2323565605928223395, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: m_Name
@@ -36941,6 +36945,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+--- !u!1 &1311306402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3798183772366104971, guid: 9ed6d68a56578204f8ea3c691cea9a59, type: 3}
+  m_PrefabInstance: {fileID: 538881776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1313134864
 PrefabInstance:
   m_ObjectHideFlags: 0

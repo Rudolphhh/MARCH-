@@ -27,6 +27,7 @@ public class SoldierMovement : MonoBehaviour
     
     public void Start()
     {
+        
         health = GetComponent<Health>();
         rb = GetComponent<Rigidbody>();
         mAnimator = GetComponent<Animator>();
