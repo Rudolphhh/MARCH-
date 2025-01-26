@@ -31,7 +31,7 @@ public class TankDamager : MonoBehaviour
             }
 
 
-            Destroy(gameObject);
+            
         }
     }
 }
