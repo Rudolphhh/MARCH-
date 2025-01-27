@@ -20,6 +20,8 @@ public class TankShooter : MonoBehaviour
     private int explosionDamage = 200;
     [SerializeField]
     private GameObject explosionEffectPrefab;
+    public AudioSource audioSource;
+    public AudioClip shootingSound;
 
     private bool isReloading = false;
     private List<Transform> enemies = new List<Transform>();
@@ -96,11 +98,20 @@ public class TankShooter : MonoBehaviour
         {
             rb.velocity = adjustedDirection * BulletSpeed;
         }
+        if (explosionEffectPrefab != null)
+        {
+            Instantiate(explosionEffectPrefab, firePoint.position, firePoint.rotation);
+        }
+        if (audioSource != null && shootingSound != null)
+        {
+            audioSource.PlayOneShot(shootingSound);
+        }
 
         TankBullet tankProjectile = projectile.GetComponent<TankBullet>();
         if (tankProjectile != null)
         {
             tankProjectile.Setup(explosionRadius, explosionDamage, explosionEffectPrefab);
+            
         }
     }
 

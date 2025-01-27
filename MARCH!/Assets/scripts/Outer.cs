@@ -62,6 +62,11 @@ public class Outer : MonoBehaviour
         }
     }
 
+    public List<GameObject> GetSoldiersInTrench()
+    {
+        return soldiersInTrench;
+    }
+
     public void MarchForwardFromTheTrench()
     {
         for (int i = soldiersInTrench.Count - 1; i >= 0; i--)

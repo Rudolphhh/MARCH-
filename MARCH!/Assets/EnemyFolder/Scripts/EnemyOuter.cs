@@ -62,6 +62,10 @@ public class EnemyOuter : MonoBehaviour
             }
         }
     }
+    public List<GameObject> GetEnemySoldiersInTrench()
+    {
+        return EnemysoldiersInTrench;
+    }
 
     public void EnemyMarchForwardFromTheTrench()
     {

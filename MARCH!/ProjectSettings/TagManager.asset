@@ -9,6 +9,7 @@ TagManager:
   - killedEnemySoldier
   - KilledSoldier
   - killedSoldier
+  - Trench
   layers:
   - Default
   - TransparentFX
