@@ -76,6 +76,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6f42ae5805d39438d402ca2e6da895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tank: {fileID: 0}
+  tank: {fileID: 8705883113224905822, guid: 595faf55719fbd743b71cd853ed55e58, type: 3}
   spawnPoints:
   - {fileID: 3470112299771237894}
