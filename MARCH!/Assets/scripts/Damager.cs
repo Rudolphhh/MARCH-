@@ -26,5 +26,23 @@ public class Damager : MonoBehaviour
             
             Destroy(gameObject);
         }
+
+        if (other.gameObject.CompareTag("EnemySoldier"))
+        {
+
+            EnemyTankHealth soldierHelth = other.gameObject.GetComponent<EnemyTankHealth>();
+
+
+            if (soldierHelth != null)
+            {
+                soldierHelth.HP -= damageAmount;
+
+            }
+
+
+            Destroy(gameObject);
+        }
     }
+
+
 }

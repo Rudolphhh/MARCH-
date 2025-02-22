@@ -43,6 +43,14 @@ public class TankBullet : MonoBehaviour
                     enemyHealth.HP -= explosionDamage;
                 }
             }
+            if (hitCollider.CompareTag("Soldier"))
+            {
+                Health health = hitCollider.GetComponent<Health>();
+                if (health != null)
+                {
+                    health.HP -= explosionDamage;
+                }
+            }
         }
 
         

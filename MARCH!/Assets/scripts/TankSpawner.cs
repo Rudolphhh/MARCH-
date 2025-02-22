@@ -5,9 +5,9 @@ using UnityEngine.Analytics;
 
 public class TankSpawner : MonoBehaviour
 {
-    public GameObject tank; // Prefab tanku
+    public GameObject tank;
 
-    public List<Transform> spawnPoints; // Seznam spawn pointů
+    public List<Transform> spawnPoints;
 
     private MoneyManager moneyManager;
 
