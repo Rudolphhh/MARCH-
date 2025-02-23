@@ -7,7 +7,7 @@ public class EnemyFronterDestroyer : MonoBehaviour
     public GameObject enemyTank;
     public int damageAmount = 200;
     private EnemyTankHealth tankHealthScript;
-    private TankMovement tankMovementScript;
+    private EnemyTankMovement tankMovementScript;
 
     void Start()
     {
@@ -46,7 +46,7 @@ public class EnemyFronterDestroyer : MonoBehaviour
 
         if (other.gameObject.CompareTag("Trench"))
         {
-            tankMovementScript = enemyTank.GetComponent<TankMovement>();
+            tankMovementScript = enemyTank.GetComponent<EnemyTankMovement>();
 
             Debug.Log("tank touch");
             tankMovementScript.speed = 0f;
