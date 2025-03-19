@@ -15,7 +15,7 @@ C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62905
+50106
 Successfully changed project path to: C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
 C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/rudad/OneDrive/Plocha/unity projekty/MARCH!/MARCH-/MARCH!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21416] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 45592327 [EditorId] 45592327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21084] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 1989880330 [EditorId] 1989880330 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21416] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 45592327 [EditorId] 45592327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21084] Host "[IP] 10.0.1.16 [Port] 0 [Flags] 2 [Guid] 1989880330 [EditorId] 1989880330 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E597BLD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -72,43 +72,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006412 seconds.
-- Loaded All Assemblies, in  0.245 seconds
+Registered in 0.006028 seconds.
+- Loaded All Assemblies, in  0.282 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.170 seconds
-Domain Reload Profiling: 414ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.171 seconds
+Domain Reload Profiling: 452ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (90ms)
-		LoadAssemblies (79ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (89ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (171ms)
+	FinalizeReload (172ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (132ms)
+		SetupLoadedEditorAssemblies (131ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadAttributes (82ms)
 			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,43 +117,43 @@ Domain Reload Profiling: 414ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.429 seconds
-Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 842ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
+		CreateAndSetChildDomain (15ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (214ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (210ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (88ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (415ms)
+	FinalizeReload (423ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (318ms)
+		SetupLoadedEditorAssemblies (325ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (250ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (259ms)
 			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
@@ -162,142 +162,34 @@ Domain Reload Profiling: 842ms
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (58.4 KB). Loaded Objects now: 3710.
 Memory consumption went from 145.8 MB to 145.8 MB.
-Total: 3.174300 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.660400 ms  DeleteObjects: 0.130800 ms)
+Total: 3.286800 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.177300 ms MarkObjects: 2.734600 ms  DeleteObjects: 0.156500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 194.857837 seconds.
-  path: Assets/Pictures/coin.png
-  artifactKey: Guid(ba339cc62fbeddf48b534f4f43596507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/coin.png using Guid(ba339cc62fbeddf48b534f4f43596507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df1597ccf3dd2cc008c0b578cec5c4e') in 0.047743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.059413 seconds.
-  path: Assets/Pictures/yellowPaper.jpg
-  artifactKey: Guid(ea7270b8ff81f1f469bd5b3f2d050409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/yellowPaper.jpg using Guid(ea7270b8ff81f1f469bd5b3f2d050409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64f742b1d9c655158bfe4437780ba8b') in 0.001355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 9.797320 seconds.
-  path: Assets/Pictures/yellowPaper.jpg
-  artifactKey: Guid(ea7270b8ff81f1f469bd5b3f2d050409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/yellowPaper.jpg using Guid(ea7270b8ff81f1f469bd5b3f2d050409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beb6cc599066375a4f7538a0f845b8c') in 0.000865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 15.497606 seconds.
-  path: Assets/Pictures/coin.png
-  artifactKey: Guid(ba339cc62fbeddf48b534f4f43596507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/coin.png using Guid(ba339cc62fbeddf48b534f4f43596507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3bd6a25d6f138b28577c039e12ffee') in 0.047272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 72.453495 seconds.
-  path: Assets/Pictures/coin-removebg-preview.png
-  artifactKey: Guid(a927f60899c70ae44a0c178a18f1f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/coin-removebg-preview.png using Guid(a927f60899c70ae44a0c178a18f1f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aaf23d745351bb7bcb838b71101bfa') in 0.021465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.201597 seconds.
-  path: Assets/Pictures/coin-removebg-preview.png
-  artifactKey: Guid(a927f60899c70ae44a0c178a18f1f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/coin-removebg-preview.png using Guid(a927f60899c70ae44a0c178a18f1f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f45214240110455ea35ce2b3090260') in 0.015314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 41.136942 seconds.
-  path: Assets/Prefabs/UIWithGasTank.prefab
-  artifactKey: Guid(5d0ca7539307fb94d8a6b6f5d1188ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UIWithGasTank.prefab using Guid(5d0ca7539307fb94d8a6b6f5d1188ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d7ec766a8ad672d837da296492dd1') in 0.036387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
-========================================================================
-Received Import Request.
-  Time since last request: 17.666691 seconds.
-  path: Assets/Prefabs/UIWithGas.prefab
-  artifactKey: Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UIWithGas.prefab using Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b4c2ee7f38ed8b57bf69f56a29e91') in 0.011926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.298 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.595 seconds
-Domain Reload Profiling: 891ms
-	BeginReloadAssembly (112ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (191ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (595ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.6 KB). Loaded Objects now: 3721.
-Memory consumption went from 144.8 MB to 144.7 MB.
-Total: 3.060700 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.581600 ms  DeleteObjects: 0.057500 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3710.
+Memory consumption went from 89.5 MB to 89.5 MB.
+Total: 3.382900 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.137000 ms MarkObjects: 2.976400 ms  DeleteObjects: 0.028300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -315,75 +207,611 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 150.187446 seconds.
-  path: Assets/Pictures/d183f85e-cb9b-492e-bb5c-d8dd663333ae.jpg
-  artifactKey: Guid(2f23968afcb34204fb35008ab9fb2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/d183f85e-cb9b-492e-bb5c-d8dd663333ae.jpg using Guid(2f23968afcb34204fb35008ab9fb2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd545a56cb75cc97fe69ac11b678521') in 0.039145 seconds
+  Time since last request: 371.122422 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883b91d3cd65abe1b8775ba183ab444c') in 0.081220 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 218
 ========================================================================
 Received Import Request.
-  Time since last request: 10.693718 seconds.
-  path: Assets/Prefabs/UI.prefab
-  artifactKey: Guid(9ed6d68a56578204f8ea3c691cea9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI.prefab using Guid(9ed6d68a56578204f8ea3c691cea9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0bc75d07f95ca1a1e23a133e2ebbd9') in 0.033265 seconds
+  Time since last request: 12.603525 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90435357347d7b628a9510b92f224540') in 0.092637 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 121
+Number of asset objects unloaded after import = 344
 ========================================================================
 Received Import Request.
-  Time since last request: 3.925568 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(2820bc51330c5164dbd9effd17018a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2820bc51330c5164dbd9effd17018a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56809541c9f3e4eb3eb7605105be3bd9') in 0.000731 seconds
+  Time since last request: 1.354126 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d110ad231e8baf5f53bd11b8640b86') in 0.021585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 14.097552 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f440a28e9e3e7201d7ccdc340f7859') in 0.032532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 4.995086 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89038246bfdf3bef203307247eb6be79') in 0.026332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 23.358284 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd93e38d2e5d2028ea52805df3f8f570') in 0.025948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 3.402399 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9332ba4ed3529accaa615e394574e3e9') in 0.022583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 1.790947 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db82da47743afe542bf253be0a38a6db') in 0.024145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 4.805654 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451cdeaa2f5d435bde8fa98176bcb6fa') in 0.024944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 2.588961 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab35d1ec87b3ca832439854701b7cd') in 0.025388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 14.480195 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4a297e5addebc43d4c3f6589c7c315') in 0.024403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 2.195174 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef0b910069b08629f9a76f081d38a1b') in 0.026557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 5.009274 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab47fbf4535d85de5c56dbaeae99ad10') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 1.981040 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5c92770d65423a2e71f3ce6829517d') in 0.025187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 1.384982 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e06aad86a2ee92a1cc783aa77378f0') in 0.021670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 1.593301 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec3f7bc441cf78159b11816a6a93075') in 0.025471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 5.007547 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1d048d252be2ba1089e0cb039984be') in 0.027137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 1.992492 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388cc289c9509ef046a03f37641fcb28') in 0.025001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 5.202835 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5edb45c6926a4a91e9a2edb02b06bb') in 0.032502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 39.031272 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684ced1f51a1f62e897cacf077d3e0dd') in 0.036122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 345
+========================================================================
+Received Import Request.
+  Time since last request: 2.364801 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffcea68ae96e48f96303725dfad395e') in 0.023639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 346
+========================================================================
+Received Import Request.
+  Time since last request: 7.648333 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40cdd1de2feedf1bbc82e05e6586b5f') in 0.021824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 346
+========================================================================
+Received Import Request.
+  Time since last request: 12.904638 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e118a1f100e1c6f93727a365bbb96f15') in 0.036335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 347
+========================================================================
+Received Import Request.
+  Time since last request: 3.803695 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb44b56740e95e2ab06d77480a7b0852') in 0.024198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 15.306005 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ac37509be8bb3b1dbd527f8eaadac') in 0.024304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 2.998870 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5128a5d2d7d901ce3fae3e99406a3a0d') in 0.026242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 0.172745 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeecfb13e5d73ccea5a7300e5083b747') in 0.022596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 0.184949 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc4911f86784e2a1ef320238cd167fa') in 0.024736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 5.213214 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf219ca6f4989a86712b14934afdcdf') in 0.023964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 3.283837 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6092d9bd84091f06abfca837620384') in 0.035003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 3.037746 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b7dcf86efd034525bb093722ffbe4a') in 0.024880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 16.180187 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c8fb08dfb7bdf8fceb1c2238ab6085') in 0.027059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 2.974194 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06754e60e26ab76b9539021def097fbc') in 0.032870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 19.371158 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e76e4c538fe5557c65717d00de6ba41') in 0.028329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 1.376779 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239e2a63f358aa13e6b70172e5867aa6') in 0.028180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.375037 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6069091a7758842dce99df05778d76be') in 0.035564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 1.770811 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd2b7065574cc86fa946f0008ef433c') in 0.041995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.777472 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc4ede0de675de2c647cf54f791bc0') in 0.034098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.366952 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c29d1c51417a3c655c55280c5f77048') in 0.027251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.370131 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce40c97327dc59bcd7b04252a13b74a5') in 0.025136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 40.632526 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf434d84224f11c560ed9c41de126d6d') in 0.033394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 27.737388 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(ab5b864da2989994baf411f1aa2cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b049e534bd31917e2c9bd49069c909f') in 0.026976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 27.979719 seconds.
+  path: Assets/EnemyFolder/Character_American_Soldier_01.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/Character_American_Soldier_01.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb925946b730e64604b6b7b9bee1e148') in 0.028805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 15.445599 seconds.
+  path: Assets/EnemyFolder/Character_American_Soldier_01.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/Character_American_Soldier_01.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9ca0899e13d69f51d054dae39edf7') in 0.033991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 12.653195 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySoldier.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySoldier.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154bccd4ad8d623873558610c91f686d') in 0.052175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 10.334599 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7328327d5f76f776b0903654ea4e6e6d') in 0.053372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 5.837504 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34d49c5c7d0e79a1239a3af633a90bf') in 0.026987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 1.994779 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de07038fbbfb1b311ee8e6d9de80e15e') in 0.027514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 255
+========================================================================
+Received Import Request.
+  Time since last request: 4.824172 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d497d0ea0c817e5502b281773c0c64') in 0.028887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 255
+========================================================================
+Received Import Request.
+  Time since last request: 5.277501 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe337eed131490f2686feed92d2abfd8') in 0.038701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 256
+========================================================================
+Received Import Request.
+  Time since last request: 13.278086 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a56125040e3d8483b1ad638c87ef49') in 0.031249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 256
+========================================================================
+Received Import Request.
+  Time since last request: 9.012268 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0de1985a465f62883b55c08cf61156') in 0.038906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 59.041376 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c130428e3414fd592b33fc8cfb76853') in 0.028401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 1.792115 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee3cc002c94dce6ac4570995d8dda54') in 0.023949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 236
+========================================================================
+Received Import Request.
+  Time since last request: 2.990986 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a3c2bd7f2c9aa7299562bbc3129bb') in 0.030526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 256
+========================================================================
+Received Import Request.
+  Time since last request: 3.597382 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3da72b4d8a2a733b82dd42868e7552') in 0.041268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.761576 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1a51dd01b70d6df121083818a7a4f') in 0.031319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.170441 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e071e4fbcbd543cb870e885e67c75b7') in 0.031786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.167489 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a6e4b70404fd8c2960179fe51be032') in 0.031802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.770146 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b52fafcd8139b00a1dad3af1aaeb9ae') in 0.033685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 5.818532 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0badb3a8822faa52458a77e2130ab626') in 0.026871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 1.990198 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eac6ffe183bb2412cb61c7633104a4') in 0.028432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 3.406754 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7959b31bac2e6e0ec47cd7d09818b8e3') in 0.043587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 1.768698 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a54376eb830921d886cb4e2dc5a87f') in 0.029951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 0.178985 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91589ee1fd570838a22647f3aefe1ca0') in 0.028175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 3.409141 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bdf03cb5321a84e0678af6450416c2') in 0.028197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 2.192015 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5bc7aa45233560c0e099f27f4d89ca') in 0.042474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 1.364225 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84534ac85f815fc968f92872c2f98e02') in 0.038898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 3.186267 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae58f8026455da312b484a84f87b7bf') in 0.040960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 0.967941 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0361660104646c2494cf16fed87c5f1') in 0.027575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 7.052342 seconds.
+  path: Assets/Scenes/RussianFront/RussianFront4.unity
+  artifactKey: Guid(586159fd70980994c8a2dfeb43c663e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RussianFront/RussianFront4.unity using Guid(586159fd70980994c8a2dfeb43c663e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb6ae0f3d69b03b6f5b72d598fe0aa') in 0.000627 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 14.591281 seconds.
-  path: Assets/Pictures/d183f85e-cb9b-492e-bb5c-d8dd663333ae.jpg
-  artifactKey: Guid(2f23968afcb34204fb35008ab9fb2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pictures/d183f85e-cb9b-492e-bb5c-d8dd663333ae.jpg using Guid(2f23968afcb34204fb35008ab9fb2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166539ec6518d7544779e7dd34cf9800') in 0.048829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.308 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.700 seconds
-Domain Reload Profiling: 1006ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
 	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (194ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (700ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (306ms)
+		SetupLoadedEditorAssemblies (317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (231ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (247ms)
 			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
@@ -391,12 +819,346 @@ Domain Reload Profiling: 1006ms
 		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.6 KB). Loaded Objects now: 3726.
-Memory consumption went from 146.7 MB to 146.7 MB.
-Total: 3.144200 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.197900 ms MarkObjects: 2.646200 ms  DeleteObjects: 0.059600 ms)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3724.
+Memory consumption went from 146.8 MB to 146.8 MB.
+Total: 3.046600 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.158400 ms MarkObjects: 2.604900 ms  DeleteObjects: 0.055500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.853844 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6147c534aaa59d00a03729a5a991db67') in 0.143562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.302 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 953ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (653ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3727.
+Memory consumption went from 148.7 MB to 148.7 MB.
+Total: 3.546400 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.181800 ms MarkObjects: 3.051300 ms  DeleteObjects: 0.052200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.228414 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler 1.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler 1.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ba18d2099a18c40a27fb4c7d0d103') in 0.083630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 0.413365 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler 2.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler 2.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c503c5505efc6f89e06aad96ad88b2') in 0.033761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 16.332905 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f97bce03ec2c41b9c786833276e8ac9') in 0.051962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 13.315460 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a8867249eb46ae66bd95f232817f31') in 0.047950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 13.537465 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081cd71ed0278f261c8eb10e1baa314f') in 0.044751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 2.609501 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc13a373efcc680b4d9d14abada53bd7') in 0.030676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 2.179662 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d7b63576fdea3f987ed2ed3ee7c017') in 0.030781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 11.855723 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1514ab9cd5ac2ad3d619cbd65d1edccb') in 0.045680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.975791 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e75a8e347708cd1e001a9102e3b9ba') in 0.032877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 1.580277 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c89376faf3c89ba45489880d15ea9') in 0.025791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 7.447220 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10619bfbaa56871cb6d74b9ec971e09') in 0.030174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 309
+========================================================================
+Received Import Request.
+  Time since last request: 2.850076 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb100116929d933526e8f8893a43f62') in 0.032784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 309
+========================================================================
+Received Import Request.
+  Time since last request: 8.855206 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ccef57c1d3d93303f9d5455da51aa3') in 0.029790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 6.139619 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fc2baf6f23cc60c5510a629f7c46d4') in 0.028923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 6.685354 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7080284d69f1536d2936c87b4cb4f7') in 0.035676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 15.022000 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9e1fb32c46367a6fcc5b4b78ac2448') in 0.028141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.843685 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f47bf57a904c46d69d12dbb6eeab2d') in 0.030702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 3.452576 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02229040a26bbfcde0ed264d669e65') in 0.035192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 8.890952 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa949fbb8f653dbd93f53d168125600') in 0.030759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 15.902123 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960ffe8c64df4911e597640dc903cfa3') in 0.054296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 0.141477 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab32d8ee0c1798784948862a70810fc9') in 0.033275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 8.654102 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2827887e19331bcfdd25deab566b28f') in 0.035662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 0.162196 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c3ad654edcca03075ff67ea291f77d') in 0.045310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 6.926629 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront1.unity
+  artifactKey: Guid(eaa8b6905f6d4244b863d0dee528c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront1.unity using Guid(eaa8b6905f6d4244b863d0dee528c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb86e10703af5d014038db854e2c52c') in 0.000637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.299 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3730.
+Memory consumption went from 150.7 MB to 150.6 MB.
+Total: 3.116700 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.171100 ms MarkObjects: 2.615500 ms  DeleteObjects: 0.063400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -415,23 +1177,205 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.291 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.305 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.580 seconds
-Domain Reload Profiling: 869ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 977ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3733.
+Memory consumption went from 152.9 MB to 152.8 MB.
+Total: 3.763000 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.219300 ms  DeleteObjects: 0.090100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.290 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 945ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3736.
+Memory consumption went from 154.8 MB to 154.8 MB.
+Total: 2.849200 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.149300 ms MarkObjects: 2.450100 ms  DeleteObjects: 0.045900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.411484 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd709978c78170f896a107c5bf8963d9') in 0.091585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.785544 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aa7fadf3c9e4f13bcafda1edf622ae') in 0.028717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.885269 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0776d654f7b35ef39945e9ca24e5780') in 0.028003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 0.164462 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df43ef29a36ee4407955d0158bae450') in 0.027403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 2.599056 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd395aa3cc4adc10dadb56b34e918c0') in 0.041391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 2.236794 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9baa8af14ce223ebbf87ceccfe775c') in 0.028521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1027ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (20ms)
 	LoadAllAssembliesAndSetupDomain (137ms)
 		LoadAssemblies (185ms)
@@ -441,29 +1385,211 @@ Domain Reload Profiling: 869ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (580ms)
+	FinalizeReload (728ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3739.
+Memory consumption went from 156.5 MB to 156.5 MB.
+Total: 3.074100 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.264200 ms MarkObjects: 2.513900 ms  DeleteObjects: 0.051100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.737920 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5814c7f5a2b6a598347901375ec6bbab') in 0.083282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 2.716509 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23d9ec1a72cddb6891c36e26d1ddc99') in 0.036692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 2.549356 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca441b7ad66854f7585954b155b937') in 0.027060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.307 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1065ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3729.
-Memory consumption went from 148.9 MB to 148.9 MB.
-Total: 3.505400 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.247800 ms MarkObjects: 2.910000 ms  DeleteObjects: 0.052400 ms)
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3742.
+Memory consumption went from 158.4 MB to 158.4 MB.
+Total: 3.246600 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.823000 ms  DeleteObjects: 0.049900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.714005 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe287fdde5e46806cc9bec70daa91486') in 0.082665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 8.548477 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ed91693e005b39b24dded00449f578') in 0.085886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 3.735035 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a316746ce702edfa25512ca9c5e10cb') in 0.045861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.305 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1057ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3745.
+Memory consumption went from 160.3 MB to 160.3 MB.
+Total: 3.067300 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.214400 ms MarkObjects: 2.580800 ms  DeleteObjects: 0.050200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -482,55 +1608,55 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.298 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.303 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.585 seconds
-Domain Reload Profiling: 882ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 977ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (189ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (586ms)
+	FinalizeReload (676ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (260ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3732.
-Memory consumption went from 150.8 MB to 150.8 MB.
-Total: 3.165900 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.695800 ms  DeleteObjects: 0.060400 ms)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3748.
+Memory consumption went from 162.5 MB to 162.5 MB.
+Total: 3.454600 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.896800 ms  DeleteObjects: 0.065600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -550,27 +1676,308 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.299 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.594 seconds
-Domain Reload Profiling: 891ms
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 985ms
 	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (185ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3751.
+Memory consumption went from 164.4 MB to 164.4 MB.
+Total: 3.267000 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.142400 ms MarkObjects: 2.816900 ms  DeleteObjects: 0.049600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.827113 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20f7bc2eb1b4b213fcc6594d3d33b50') in 0.089327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.273727 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c115f55e800d78934db4a496baf28e9f') in 0.031250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 2.986429 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1627b75061aa050a509b6386e286e04a') in 0.030646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.992534 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c360d6d7af84ad5f608902053ccd14') in 0.029661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 7.014590 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c03a738f224780c0d38276b4576f8') in 0.032943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 3.783641 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyRifler.prefab
+  artifactKey: Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyRifler.prefab using Guid(7c36040639cb059459cf416d6bd40254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590117399ed888092e14bc209285f5f') in 0.026887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 5.414408 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b5275bda611e0d8034d394c9f99081') in 0.033085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 4.389671 seconds.
+  path: Assets/EnemyFolder/FrenchEnemySniper.prefab
+  artifactKey: Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemySniper.prefab using Guid(51500abb9b5b7884286981c8a0dbb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc09e349d419871961be225fd2320ba9') in 0.028898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.303 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (717ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3754.
+Memory consumption went from 166.1 MB to 166.1 MB.
+Total: 2.992700 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.555500 ms  DeleteObjects: 0.053500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.305 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1035ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3757.
+Memory consumption went from 168.3 MB to 168.2 MB.
+Total: 3.347400 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.254800 ms MarkObjects: 2.819900 ms  DeleteObjects: 0.049200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.105467 seconds.
+  path: Assets/EnemyFolder/FrenchEnemyGunner.prefab
+  artifactKey: Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyFolder/FrenchEnemyGunner.prefab using Guid(6516c62bf24846649b68a9f36018e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a9b2a2baa2f3facfda5892df44f902') in 0.081026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 316
+========================================================================
+Received Import Request.
+  Time since last request: 9.645707 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2820bc51330c5164dbd9effd17018a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2820bc51330c5164dbd9effd17018a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7502c151c1a9a89339516050e2d136a0') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 893ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
@@ -578,12 +1985,12 @@ Domain Reload Profiling: 891ms
 	FinalizeReload (595ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (266ms)
+		SetupLoadedEditorAssemblies (267ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
+			BeforeProcessingInitializeOnLoad (42ms)
 			ProcessInitializeOnLoadAttributes (200ms)
 			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (6ms)
@@ -592,12 +1999,12 @@ Domain Reload Profiling: 891ms
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3735.
-Memory consumption went from 152.8 MB to 152.7 MB.
-Total: 3.110600 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.178400 ms MarkObjects: 2.659400 ms  DeleteObjects: 0.051200 ms)
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3760.
+Memory consumption went from 170.0 MB to 169.9 MB.
+Total: 3.223600 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.213100 ms MarkObjects: 2.697200 ms  DeleteObjects: 0.049900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -616,55 +2023,55 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.293 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.285 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.599 seconds
-Domain Reload Profiling: 889ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 884ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (184ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (599ms)
+	FinalizeReload (602ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (271ms)
+		SetupLoadedEditorAssemblies (267ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (205ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3738.
-Memory consumption went from 154.7 MB to 154.7 MB.
-Total: 3.584800 ms (FindLiveObjects: 0.470400 ms CreateObjectMapping: 0.211100 ms MarkObjects: 2.848400 ms  DeleteObjects: 0.053500 ms)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3763.
+Memory consumption went from 172.1 MB to 172.1 MB.
+Total: 3.373300 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.252700 ms MarkObjects: 2.812800 ms  DeleteObjects: 0.051700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -682,80 +2089,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.578446 seconds.
-  path: Assets/Prefabs/UI.prefab
-  artifactKey: Guid(9ed6d68a56578204f8ea3c691cea9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI.prefab using Guid(9ed6d68a56578204f8ea3c691cea9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b594b747fbc36a6c3fc87641d5688e') in 0.041820 seconds
+  Time since last request: 58.258243 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront2.unity
+  artifactKey: Guid(a28034ead9740fa49b56fb8d7d8cedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront2.unity using Guid(a28034ead9740fa49b56fb8d7d8cedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae18b36bccf027925e9ce83711b4b5b') in 0.001641 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 122
-========================================================================
-Received Import Request.
-  Time since last request: 7.619381 seconds.
-  path: Assets/Prefabs/UIWithGas.prefab
-  artifactKey: Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UIWithGas.prefab using Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec00c3e049ac68824a9135e18fd475a') in 0.012394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 136
-========================================================================
-Received Import Request.
-  Time since last request: 6.726538 seconds.
-  path: Assets/Prefabs/UIWithGas.prefab
-  artifactKey: Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UIWithGas.prefab using Guid(a21d3e4a6d6cfc54e89259b1eb3249ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43960f9479f9804361c346c3a95837b6') in 0.011541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 136
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.295 seconds
+- Loaded All Assemblies, in  0.302 seconds
 Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.660 seconds
-Domain Reload Profiling: 953ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1005ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (186ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (193ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (660ms)
+	FinalizeReload (705ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (312ms)
+		SetupLoadedEditorAssemblies (322ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (244ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (245ms)
 			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 8.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.9 KB). Loaded Objects now: 3741.
-Memory consumption went from 156.4 MB to 156.3 MB.
-Total: 3.690500 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.192800 ms MarkObjects: 3.186700 ms  DeleteObjects: 0.056500 ms)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3766.
+Memory consumption went from 173.8 MB to 173.8 MB.
+Total: 3.148200 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.743800 ms  DeleteObjects: 0.049600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -774,42 +2165,192 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.293 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.300 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.656 seconds
-Domain Reload Profiling: 947ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (186ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3769.
+Memory consumption went from 176.0 MB to 175.9 MB.
+Total: 2.957400 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.171400 ms MarkObjects: 2.480800 ms  DeleteObjects: 0.048600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.611356 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront4.unity
+  artifactKey: Guid(47e300cd2da218d4997cfb3a5c24bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront4.unity using Guid(47e300cd2da218d4997cfb3a5c24bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65b6ac8b697877c5265b0fa5e8d97e7') in 0.004888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.308 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (9ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (656ms)
+	FinalizeReload (688ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (327ms)
+		SetupLoadedEditorAssemblies (321ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (256ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3772.
+Memory consumption went from 177.6 MB to 177.6 MB.
+Total: 3.120000 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.206500 ms MarkObjects: 2.534500 ms  DeleteObjects: 0.065500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.149231 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront5.unity
+  artifactKey: Guid(4bf91d81736a0e84e80ab4bb3863edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront5.unity using Guid(4bf91d81736a0e84e80ab4bb3863edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281476115eed01f0447f87d9ec4c3b55') in 0.004366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.298 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 952ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (234ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
@@ -817,12 +2358,12 @@ Domain Reload Profiling: 947ms
 		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3744.
-Memory consumption went from 158.5 MB to 158.5 MB.
-Total: 3.194400 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.154900 ms MarkObjects: 2.715800 ms  DeleteObjects: 0.071700 ms)
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3775.
+Memory consumption went from 179.6 MB to 179.5 MB.
+Total: 3.200400 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.763800 ms  DeleteObjects: 0.067500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -840,9 +2381,285 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 295.119740 seconds.
-  path: Assets/EnemyFolder/SM_Veh_German_Tank_01_Destroyed.prefab
-  artifactKey: Guid(3efcd34f70df12144ab99349453373cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemyFolder/SM_Veh_German_Tank_01_Destroyed.prefab using Guid(3efcd34f70df12144ab99349453373cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12efa6cecf3543bde71113242e4c3833') in 0.075727 seconds
+  Time since last request: 30.518174 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront5.unity
+  artifactKey: Guid(4bf91d81736a0e84e80ab4bb3863edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront5.unity using Guid(4bf91d81736a0e84e80ab4bb3863edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c742291deb55da4b39195f5bee67200') in 0.002761 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 105
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.295 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3778.
+Memory consumption went from 181.5 MB to 181.4 MB.
+Total: 2.988800 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.139100 ms MarkObjects: 2.501800 ms  DeleteObjects: 0.073700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.296 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 969ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3781.
+Memory consumption went from 183.6 MB to 183.6 MB.
+Total: 3.229100 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.811200 ms  DeleteObjects: 0.051600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.979820 seconds.
+  path: Assets/Scenes/FrenchFront/FrenchFront7.unity
+  artifactKey: Guid(49e194b54faf62a4a88233f755685d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FrenchFront/FrenchFront7.unity using Guid(49e194b54faf62a4a88233f755685d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e371189b78a0e2db1c5ab8d2af7f08') in 0.002919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 927ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3784.
+Memory consumption went from 185.3 MB to 185.3 MB.
+Total: 3.016200 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.152400 ms MarkObjects: 2.579300 ms  DeleteObjects: 0.048300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.295 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 947ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3787.
+Memory consumption went from 187.5 MB to 187.4 MB.
+Total: 3.178800 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.238100 ms MarkObjects: 2.657800 ms  DeleteObjects: 0.056400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

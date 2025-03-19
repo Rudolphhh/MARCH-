@@ -35087,6 +35087,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemyGunner
+      value: 
+      objectReference: {fileID: 4651693604511070842, guid: 6516c62bf24846649b68a9f36018e29c, type: 3}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemyRifler
+      value: 
+      objectReference: {fileID: 4651693604511070842, guid: 7c36040639cb059459cf416d6bd40254, type: 3}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
+      propertyPath: enemySniper
+      value: 
+      objectReference: {fileID: 4651693604511070842, guid: 51500abb9b5b7884286981c8a0dbb542, type: 3}
+    - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: spawnInterval
       value: 20
       objectReference: {fileID: 0}
