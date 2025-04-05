@@ -3097,7 +3097,7 @@ PrefabInstance:
       objectReference: {fileID: 4651693604511070842, guid: 51500abb9b5b7884286981c8a0dbb542, type: 3}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: spawnInterval
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1698585433804747273, guid: 19ba502fcf6828d468016aace02e4b0c, type: 3}
       propertyPath: numEnemyGunners

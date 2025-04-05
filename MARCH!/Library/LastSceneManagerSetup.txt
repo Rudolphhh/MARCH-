@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FrenchFront/FrenchFront7.unity
+- path: Assets/Scenes/SerbianFront/SerbianFront3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
