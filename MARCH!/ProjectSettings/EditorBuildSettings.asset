@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FrenchFront/FrenchFront7.unity
     guid: 49e194b54faf62a4a88233f755685d89
+  - enabled: 1
+    path: Assets/Scenes/FinalTitles.unity
+    guid: cde31c6906d8b0d4cb9a5c4e8f17ba8b
   m_configObjects: {}

@@ -12,7 +12,32 @@ public class LevelMenu : MonoBehaviour
 
     private void Awake()
     {
+        //otevřel jsem si všechny levely abych vám to mohl ukázat :)
+        int unlockedLevel = firstSectionButtons.Length + secondSectionButtons.Length + thirdSectionButtons.Length;
+
         
+        PlayerPrefs.SetInt("UnlockedLevl", unlockedLevel);
+        PlayerPrefs.SetInt("SecondSectionUnlocked", 1);
+        PlayerPrefs.SetInt("ThirdSectionUnlocked", 1);
+
+        // Odemkneme všechny levely v první sekci
+        for (int i = 0; i < firstSectionButtons.Length; i++)
+        {
+            firstSectionButtons[i].interactable = true;
+        }
+
+        // Odemkneme všechny levely ve druhé sekci
+        for (int i = 0; i < secondSectionButtons.Length; i++)
+        {
+            secondSectionButtons[i].interactable = true;
+        }
+
+        
+        for (int i = 0; i < thirdSectionButtons.Length; i++)
+        {
+            thirdSectionButtons[i].interactable = true;
+        }
+        /* postupné otevírání hry 
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevl", 1);
         bool isSecondSectionUnlocked = PlayerPrefs.GetInt("SecondSectionUnlocked", 0) == 1;
         bool isThirdSectionUnlocked = PlayerPrefs.GetInt("ThirdSectionUnlocked", 0) == 1;
@@ -47,7 +72,7 @@ public class LevelMenu : MonoBehaviour
         for (int i = 0; i < thirdSectionButtons.Length; i++)
         {
             thirdSectionButtons[i].interactable = isThirdSectionUnlocked && i < (unlockedLevel - firstSectionButtons.Length - secondSectionButtons.Length);
-        }
+        }*/
     }
 
 

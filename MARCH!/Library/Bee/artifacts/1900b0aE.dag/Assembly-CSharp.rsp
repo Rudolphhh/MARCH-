@@ -373,6 +373,7 @@
 "Assets/EnemyFolder/Scripts/EnemyTankMovement.cs"
 "Assets/EnemyFolder/Scripts/EnemyTankShooter.cs"
 "Assets/EnemyFolder/Scripts/EnemyTankSpawner.cs"
+"Assets/FinalniTitulky.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs"
 "Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs"
