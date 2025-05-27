@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 42488560}
   - component: {fileID: 42488559}
   - component: {fileID: 42488558}
+  - component: {fileID: 42488561}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -404,6 +405,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42488556}
   m_CullTransparentMesh: 1
+--- !u!114 &42488561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42488556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770b78ab485a294c9c20f27c0ccfe8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 1639487996}
 --- !u!1001 &51060484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6598,6 +6612,7 @@ GameObject:
   - component: {fileID: 580091570}
   - component: {fileID: 580091569}
   - component: {fileID: 580091568}
+  - component: {fileID: 580091571}
   m_Layer: 5
   m_Name: FrenchFront
   m_TagString: Untagged
@@ -6719,6 +6734,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580091566}
   m_CullTransparentMesh: 1
+--- !u!114 &580091571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580091566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4597c78f732034b4a8d1c57972a2e36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 974062901}
 --- !u!4 &590285300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4806325144940648, guid: 2d08f919e0b4b114893c6b696112089b, type: 3}
@@ -8452,6 +8480,7 @@ GameObject:
   - component: {fileID: 753139161}
   - component: {fileID: 753139160}
   - component: {fileID: 753139159}
+  - component: {fileID: 753139162}
   m_Layer: 5
   m_Name: RussianFront
   m_TagString: Untagged
@@ -8573,6 +8602,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753139157}
   m_CullTransparentMesh: 1
+--- !u!114 &753139162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753139157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4597c78f732034b4a8d1c57972a2e36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 1143187551}
 --- !u!4 &755129698 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4806325144940648, guid: 2d08f919e0b4b114893c6b696112089b, type: 3}
@@ -15480,6 +15522,7 @@ GameObject:
   - component: {fileID: 1447022276}
   - component: {fileID: 1447022275}
   - component: {fileID: 1447022274}
+  - component: {fileID: 1447022277}
   m_Layer: 5
   m_Name: SerbianFront
   m_TagString: Untagged
@@ -15601,6 +15644,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447022272}
   m_CullTransparentMesh: 1
+--- !u!114 &1447022277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447022272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4597c78f732034b4a8d1c57972a2e36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 1854362601}
 --- !u!1001 &1451471384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16613,6 +16669,7 @@ GameObject:
   - component: {fileID: 1624488934}
   - component: {fileID: 1624488933}
   - component: {fileID: 1624488936}
+  - component: {fileID: 1624488937}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -16746,6 +16803,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfaa94446708dc043b65eff1d4c29940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1624488937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624488931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770b78ab485a294c9c20f27c0ccfe8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 117226170}
 --- !u!4 &1632524167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4762126163704264, guid: 6602c72c148ede5469cac111719132e1, type: 3}
